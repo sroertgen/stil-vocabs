@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix stu: <https://w3id.org/stil/studienmodell/>.
+
+stu:
+    a skos:ConceptScheme;
+    dct:title "Studienmodell"@de;
+    skos:hasTopConcept stu:04f44, stu:2cbdc, stu:99bd1, stu:d78e0, stu:ef3aa.
+stu:04f44
+a skos:Concept; skos:prefLabel "Bachelorstudium"@de; skos:topConceptOf stu: .
+stu:2cbdc
+a skos:Concept; skos:prefLabel "Lehramtsstudium"@de; skos:topConceptOf stu: .
+stu:99bd1
+a skos:Concept; skos:prefLabel "Masterstudium"@de; skos:topConceptOf stu: .
+stu:d78e0
+    a skos:Concept;
+    skos:prefLabel "Weiterbildungsstudium"@de;
+    skos:topConceptOf stu: .
+stu:ef3aa
+a skos:Concept; skos:prefLabel "Duales Studium"@de; skos:topConceptOf stu: .
+

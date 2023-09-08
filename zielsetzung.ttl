@@ -1,0 +1,68 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix zie: <https://w3id.org/stil/zielsetzung/>.
+
+zie:
+    a skos:ConceptScheme;
+    dct:title "Zielsetzung"@de;
+    skos:hasTopConcept zie:3ea41, zie:4b56c.
+zie:39432
+    a skos:Concept;
+    skos:broader zie:3ea41;
+    skos:definition
+        "St\u00e4rkung der Lehre und Steigerung der Lehrqualit\u00e4t, Entwicklung von Qualit\u00e4tsstandards f\u00fcr digital gest\u00fctz- te Lehr- und Pr\u00fcfungsaktivit\u00e4ten, F\u00f6rderung von Lehr- kompetenzen f\u00fcr digitale Lehr- und Pr\u00fcfungsformate"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Lehrqualit\u00e4t & Lehrkompetenz"@de.
+zie:3ea41
+    a skos:Concept;
+    skos:narrower zie:39432, zie:663cc, zie:8aca5;
+    skos:prefLabel "Organisationsentwicklung der Hochschule"@de;
+    skos:topConceptOf zie: .
+zie:4b56c
+    a skos:Concept;
+    skos:narrower zie:7199c, zie:a4240, zie:c35fc, zie:cb8e6;
+    skos:prefLabel "Kompetenzentwicklung der Studierenden"@de;
+    skos:topConceptOf zie: .
+zie:663cc
+    a skos:Concept;
+    skos:broader zie:3ea41;
+    skos:definition
+        "Schaffung zeit- und ortsunabh\u00e4ngiger digitaler Lehr- angeboten, Ausrichtung von Lernangeboten an den individuellen Bed\u00fcrfnissen der Studierenden im Sinne adaptiven Lernens, Entwicklung von Studienmodellen mit flexiblen Wahlm\u00f6glichkeiten"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Flexibilisierung & Individualisierung"@de.
+zie:7199c
+    a skos:Concept;
+    skos:broader zie:4b56c;
+    skos:definition
+        "F\u00f6rderung von Fachkenntnissen, Grundlagenwissen, fachlichen Handlungskompetenzen"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "(Fach-)wissenschaftliche Qualifizierung"@de.
+zie:8aca5
+    a skos:Concept;
+    skos:broader zie:3ea41;
+    skos:definition
+        "Verst\u00e4rkte Interaktion zwischen Studierenden und Lehrenden, F\u00f6rderung von Austausch und Kollaboration f\u00fcr gemeinschaftliche Lehrentwicklung im Sinne von Commu- nities of Practice, hochschulweite Beteiligung unterschied- licher Akteursgruppen am Digitalisierungsprozess"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Partizipation & Austausch"@de.
+zie:a4240
+    a skos:Concept;
+    skos:broader zie:4b56c;
+    skos:definition
+        "F\u00f6rderung von Pers\u00f6nlichkeitsentwicklung, Ausbildung kreativer Pers\u00f6nlichkeiten"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Pers\u00f6nlichkeitsbildung "@de.
+zie:c35fc
+    a skos:Concept;
+    skos:broader zie:4b56c;
+    skos:definition
+        "F\u00f6rderung von (digitaler) Studierf\u00e4higkeit, Selbstregulation, Selbstorganisation, Selbstlernkompetenzen, Lern- motivation, Selbstwirksamkeit"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Lernbezogene Kompetenzentwicklung"@de.
+zie:cb8e6
+    a skos:Concept;
+    skos:broader zie:4b56c;
+    skos:definition
+        "F\u00f6rderung von digitalen Kompetenzen, Schl\u00fcsselkompe- tenzen, berufs- und praxisnahen, arbeitsmarktrelevanten Kompetenzen (z. B. Fertigkeiten im Umgang mit digitalen Tools, digitale Lern- und Arbeitsweisen, kritische Bewer- tung digitaler Information, ethisch verantwortungsvoller Umgang mit Daten)"@de;
+    skos:inScheme zie:;
+    skos:prefLabel "Berufsbezogene Kompetenzentwicklung"@de.
+

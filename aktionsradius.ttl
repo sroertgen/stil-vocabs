@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix n0: <https://w3id.org/stil/aktionsradiu/>.
+
+n0:
+    a skos:ConceptScheme;
+    dct:title "Aktionsradius"@de;
+    skos:hasTopConcept
+    n0:122b5, n0:3ad9a, n0:8e2b9, n0:a0d8b, n0:b3b7a, n0:fb9ca.
+n0:122b5
+    a skos:Concept;
+    skos:prefLabel "Lehrveranstaltung / Modul"@de;
+    skos:topConceptOf n0: .
+n0:3ad9a a skos:Concept; skos:prefLabel "Studienphase"@de; skos:topConceptOf n0: .
+
+n0:8e2b9
+    a skos:Concept;
+    skos:prefLabel "Hochschul\u00fcbergreifend"@de;
+    skos:topConceptOf n0: .
+n0:a0d8b a skos:Concept; skos:prefLabel "Studiengang"@de; skos:topConceptOf n0: .
+
+n0:b3b7a
+    a skos:Concept;
+    skos:prefLabel "Fachrichtung, F\u00e4chergruppe"@de;
+    skos:topConceptOf n0: .
+n0:fb9ca a skos:Concept; skos:prefLabel "Hochschulweit"@de; skos:topConceptOf n0: .
+
+

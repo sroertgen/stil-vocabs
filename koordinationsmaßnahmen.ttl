@@ -1,0 +1,97 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix koo: <https://w3id.org/stil/koordinationsmassnahmen/>.
+
+koo:
+    a skos:ConceptScheme;
+    dct:title "Koordinationsma\u00dfnahmen"@de;
+    skos:hasTopConcept koo:318e1, koo:838f3 .
+koo:318e1
+    a skos:Concept;
+    skos:narrower
+    koo:6f961, koo:78089, koo:8be66, koo:c171e, koo:d1015, koo:fe795;
+    skos:prefLabel "Koordinationsma\u00dfnahmen"@de;
+    skos:topConceptOf koo: .
+koo:3880f
+    a skos:Concept;
+    skos:broader koo:838f3;
+    skos:definition
+        "Ma\u00dfnahmen zur Verbreitung und Diskussion von Projektergebnissen (z. B. Workshops, Symposien, Fachtagungen, Abschlusstagungen)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Ausrichtung von Veranstaltungen"@de.
+koo:6f961
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur Schulung von Projektbeteiligten (z. B. Teilnahme an Schulungen zur Evaluation, Train-the-Trainer-Weiterbildung)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Fort- und Weiterbildung"@de.
+koo:70903
+    a skos:Concept;
+    skos:broader koo:838f3;
+    skos:definition
+        "Ma\u00dfnahmen zum pers\u00f6nlichen Austausch \u00fcber Projektma\u00dfnahmen (z. B. Hospitationen, Projekt- patenschaften, Projektbesuche)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Personenaustausch"@de.
+koo:78089
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur F\u00f6rderung von Verstetigung und Nachhaltigkeit der Projektma\u00dfnahmen (z. B. dauerhafte Finanzierung, Prozesse zur \u00dcbernah- me in bestehende Strukturen)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Verstetigung & Nachhaltigkeit"@de.
+koo:814aa
+    a skos:Concept;
+    skos:broader koo:838f3;
+    skos:definition
+        "Ma\u00dfnahmen zur Beteiligung an OER-Portalen (z. B. ORCA, ZOERR, twillo)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Beitr\u00e4ge zu OER-Portalen"@de.
+koo:838f3
+    a skos:Concept;
+    skos:narrower koo:3880f, koo:70903, koo:814aa, koo:abe50, koo:addc5;
+    skos:prefLabel "Externer Transfer, Vernetzung & Dissemination"@de;
+    skos:topConceptOf koo: .
+koo:8be66
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur hochschulinternen Verbreitung und Kommunikation von Projektaktivit\u00e4ten und Projekterfolgen (z. B. projekteigene Veranstaltun- gen, Tag der Lehre, Beteiligung an Gremien)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Interne Verbreitung & Kommunikation"@de.
+koo:abe50
+    a skos:Concept;
+    skos:broader koo:838f3;
+    skos:definition
+        "Ma\u00dfnahmen zur Beteiligung am lehrbezogenen Fachdiskurs (z. B. Open Access-Ver\u00f6ffentlich- ungen, Beitr\u00e4ge zu Fachzeitschriften, Vortr\u00e4ge auf Fachtagungen)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Fachpublikationen & Tagungsbeitr\u00e4ge"@de.
+koo:addc5
+    a skos:Concept;
+    skos:broader koo:838f3;
+    skos:definition
+        "Ma\u00dfnahmen zur \u00f6ffentlichen Kommunikation und Dokumentation von Projektaktivit\u00e4ten (z. B. Good- Practice-Portale, Blogbeitr\u00e4ge, Video-Channel)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Projekt-Webseite & Social Media"@de.
+koo:c171e
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur projektspezifischen Governance (z. B. Einrichtung eines Steuerkreises, Projekt- beirats) und zur Einbindung von Hochschulmitglie- dern (z. B. Leitungstreffen, Zusammenarbeit mit Studierendenvertretungen, Personalf\u00fchrung)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Projektsteuerung & Beteiligung"@de.
+koo:d1015
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur Projektsteuerung, -planung und -durchf\u00fchrung (z. B. Einsatz agiler Methoden, Anwendung PDCA-Zyklus, Teamentwicklung, Ein- satz von IT-Tools) sowie zur Dokumentation und Kommunikation unter den Projektbeteiligten (z. B. Einrichtung von Kommunikationskan\u00e4len, Einsatz spezifischer IT-Tools)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Projektmanagement"@de.
+koo:fe795
+    a skos:Concept;
+    skos:broader koo:318e1;
+    skos:definition
+        "Ma\u00dfnahmen zur Analyse von Projekterfolgen (z. B. formative/ summative Evaluation, Refle- xion/ Feedback, Monitoring, Begleitforschung)"@de;
+    skos:inScheme koo:;
+    skos:prefLabel "Evaluation, Wirkanalysen & Qualit\u00e4tssicherung"@de.
+

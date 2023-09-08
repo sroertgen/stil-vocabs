@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix foe: <https://w3id.org/stil/foerderziele/>.
+
+foe:
+    a skos:ConceptScheme;
+    dct:title "F\u00f6rderziele"@de;
+    skos:hasTopConcept foe:b030a, foe:e7538, foe:f671d.
+foe:201be
+    a skos:Concept;
+    skos:broader foe:e7538;
+    skos:definition
+        "Unterhaltung, Schaffung und Weiterentwicklung technischer Voraussetzungen f\u00fcr Austausch, Vernetzung und Wissenstransfer"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Technik"@de.
+foe:98f6c
+    a skos:Concept;
+    skos:broader foe:b030a;
+    skos:definition
+        "Strukturelle Verankerung von Lehr-, Lern- und Pr\u00fcfungs- aktivit\u00e4ten in Curricula und Ordnungen"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Strukturell-organisatorischer Rahmen"@de.
+foe:a1bf6
+    a skos:Concept;
+    skos:broader foe:e7538;
+    skos:definition
+        "Unterst\u00fctzung der Koordination und Organisation von Aktivit\u00e4ten f\u00fcr Austausch, Vernetzung und Wissenstransfer"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Koordination & Organisation"@de.
+foe:b030a
+    a skos:Concept;
+    skos:narrower foe:98f6c, foe:ca412;
+    skos:prefLabel "Rahmenbedingun- gen (hochschulin- tern)"@de;
+    skos:topConceptOf foe: .
+foe:b04fe
+    a skos:Concept;
+    skos:broader foe:e7538;
+    skos:definition
+        "Bereitstellung und Weiterentwicklung von Content f\u00fcr Lehr-, Lern- und Pr\u00fcfungsaktivit\u00e4ten f\u00fcr Austausch, Vernetzung und Wissenstransfer"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Content"@de.
+foe:ca412
+    a skos:Concept;
+    skos:broader foe:b030a;
+    skos:definition
+        "Schaffung der technischen und r\u00e4umlichen Voraus- setzungen und Bedingungen f\u00fcr innovative Lehr-, Lern- und Pr\u00fcfungsaktivit\u00e4ten"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Technisch-r\u00e4umliche Infrastruktur"@de.
+foe:ca9ba
+    a skos:Concept;
+    skos:broader foe:f671d;
+    skos:definition
+        "Anwendung bestehender Lehr-, Lern- und Pr\u00fcfungs- aktivit\u00e4ten in neuen Kontexten"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Bestehendes \u00fcbertragen"@de.
+foe:e16ea
+    a skos:Concept;
+    skos:broader foe:f671d;
+    skos:definition
+        "Neuerungen von Prozessen, Praktiken und Strukturen, die in ihrem jeweils spezifischen Kontext einen signifikanten Mehrwert f\u00fcr Lehr- und Lernprozesse erzeugen"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Neues erproben"@de.
+foe:e1d6a
+    a skos:Concept;
+    skos:broader foe:f671d;
+    skos:definition
+        "Evaluierung bestehender Lehr-, Lern- und Pr\u00fcfungs- aktivit\u00e4ten als Basis f\u00fcr die Weiterentwicklung von Lehr-, Lern- und Pr\u00fcfungsaktivit\u00e4ten"@de;
+    skos:inScheme foe:;
+    skos:prefLabel "Bestehendes verbessern"@de.
+foe:e7538
+    a skos:Concept;
+    skos:narrower foe:201be, foe:a1bf6, foe:b04fe;
+    skos:prefLabel
+    "Community (hoch- schul\u00fcbergrei- fend, au\u00dferhoch- schulisch)"@de;
+    skos:topConceptOf foe: .
+foe:f671d
+    a skos:Concept;
+    skos:narrower foe:ca9ba, foe:e16ea, foe:e1d6a;
+    skos:prefLabel "Lehre, Studium & Support-Strukturen(hochschulintern)"@de;
+    skos:topConceptOf foe: .
+

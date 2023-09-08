@@ -1,0 +1,138 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix innov: <https://w3id.org/stil/innovationsbereiche/>.
+
+innov:
+    a skos:ConceptScheme;
+    dct:title "Innovationsbereiche"@de;
+    skos:hasTopConcept innov:b8458, innov:d8a7b, innov:d952e.
+innov:0ba46
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "F\u00f6rderung hochschul\u00fcbergreifender Vernetzung (z. B. Hochschulverbund, Partnerhochschulen)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Hochschul\u00fcbergreifende Netzwerke"@de.
+innov:0f047
+    a skos:Concept;
+    skos:broader innov:d8a7b;
+    skos:definition
+        "Technische Ausstattung von Lehr-Lernr\u00e4umen (z. B. Videokonferenztechnik, Maker-/ Co-Working- Spaces); Ausbau digitaler Infrastruktur f\u00fcr virtu- elle Lernumgebungen (z. B. VR-Systeme, Medien- produktionstechnik)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Technisch-r\u00e4umliche Infrastruktur"@de.
+innov:11490
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "Entwicklung von QM-Instrumenten und -Prozessen, Qualit\u00e4tsstandards (z. B. Online-Lehrevaluation, Studiengangentwicklung, Qualit\u00e4tskriterien f\u00fcr digitale Lehre)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Qualit\u00e4tsmanagement"@de.
+innov:11f81
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "Entwicklung von Anreizen f\u00fcr gute Lehre (z. B. wettbewerblicher Innovationsfonds, Lehrpreis, Lehrfreisemester)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Anreizsysteme"@de.
+innov:1cb2c
+    a skos:Concept;
+    skos:broader innov:d952e;
+    skos:definition
+        "Entwicklung (extra-)curricularer Studieninhalte (z. B. Future Skills, Digital Literacy, Selbstlern- kompetenzen), kompetenzorientierte Studiengang- entwicklung"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Studieninhalte/ Curricula"@de.
+innov:25e69
+    a skos:Concept;
+    skos:broader innov:d8a7b;
+    skos:definition
+        "F\u00f6rderung von kollegialem Austausch und Kollaboration (z. B. Fachgruppen, Themenwochen, Lehrlabor, Teaching & Learning Lab, Community of Practice, Future Learning-Werkstatt, Innovationslabor)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Austauschforen/ Innovationslabore"@de.
+innov:3cc06
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "Weiterentwicklung bzw. Integration von Support-Ein- heiten (z. B. Didaktik-Office, zentrale Anlaufstelle, Kompetenzzentrum)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Ausbau/ B\u00fcndelung von Support-Strukturen"@de.
+innov:3d833
+    a skos:Concept;
+    skos:broader innov:d8a7b;
+    skos:definition
+        "F\u00f6rderung mediendidaktischer Lehrkompetenzen und didaktisch-technische Unterst\u00fctzung f\u00fcr die Umsetzung digital gest\u00fctzter Lehre (z. B. hochschul- didaktische Weiterbildung, medientechnische Beratung, Produktion digitaler Lehr-Lernmaterialien, Bereitstellung digitaler Werkzeuge und Best Practice)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Support f\u00fcr Lehrende "@de.
+innov:3e863
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "Entwicklung von Verfahren zur Kl\u00e4rung von Rechts- fragen (z. B. datenschutzrechtliche Begleitung von Lehrprojekten)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Datenschutz und Rechts- sicherheit"@de.
+innov:46222
+    a skos:Concept;
+    skos:broader innov:d952e;
+    skos:definition
+        "Methodisch-didaktische (Weiter-)Entwicklung von Lehr-Lernformaten zur Kombination von digitaler und Pr\u00e4senzlehre (z. B. hybride Lehre, Blended Learning, Flipped/Inverted Classroom); Digitalisierung spezifischer Lehrkonzepte (z. B. Labordidaktik, Skills Lab, praxisorientierte Lehre, projektorientierte Lehre, forschendes Lernen)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Lehr-Lernformate/ Lehrkonzepte"@de.
+innov:47a48
+    a skos:Concept;
+    skos:broader innov:d952e;
+    skos:definition
+        "Produktion und Bereitstellung digitaler Lehr- Lernelemente (z. B. Open Educational Ressources, Selbstlerneinheiten, Aufgabensammlungen, Lernvideos, Lehrmaterialien)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Lehr-Lernmaterialien/ -medien"@de.
+innov:54538
+    a skos:Concept;
+    skos:broader innov:d8a7b;
+    skos:definition
+        "(Weiter-)Entwicklung von Lern-/ Kommunikations- und Pr\u00fcfungsplattformen; Einrichtung von Feedback- Systemen (z. B. Lernstandsanalysen, digitales Mentoring, Learning Analytics)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Pr\u00fcfungs- und Lernsysteme"@de.
+innov:70d64
+    a skos:Concept;
+    skos:broader innov:b8458;
+    skos:definition
+        "(Weiter-)Entwicklung des Leitbilds Lehre bzw. der Digitalisierungsstrategie (z. B. Forum f\u00fcr Digitalit\u00e4t, Innovationsdialog digitale Lehre)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Leitbild- und Strategie- entwicklung"@de.
+innov:7fb88
+    a skos:Concept;
+    skos:broader innov:d952e;
+    skos:definition
+        "Einf\u00fchrung von Anerkennungsformaten und Studienmodellen (z. B. Studium Digitale, Zertifikatsprogramm, Micro Degrees, flexibilisierte Studieneingangsphase)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Studienorganisation/ Studienstrukturen"@de.
+innov:b8458 
+    a skos:Concept;
+    skos:prefLabel "Rahmenbedingungen"@de ;
+    skos:topConceptOf innov: .
+
+innov:d8a7b
+    a skos:Concept;
+    skos:narrower
+    innov:0f047, innov:25e69, innov:3d833, innov:54538, innov:dae53;
+    skos:prefLabel "Support-Strukturen"@de;
+    skos:topConceptOf innov: .
+innov:d952e
+    a skos:Concept;
+    skos:narrower
+    innov:1cb2c, innov:46222, innov:47a48, innov:7fb88, innov:edf43;
+    skos:prefLabel "Lehr- und Studien- angebote"@de;
+    skos:topConceptOf innov: .
+innov:dae53
+    a skos:Concept;
+    skos:broader innov:d8a7b;
+    skos:definition
+        "Unterst\u00fctzung f\u00fcr das Selbststudium (z. B. Qualifizie- rung und Einsatz von Tutor:innen, Mentoring, Lern- begleiter:innen, Studien-/ Lernberatung, Coaching)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Support f\u00fcr Studierende "@de.
+innov:edf43
+    a skos:Concept;
+    skos:broader innov:d952e;
+    skos:definition
+        "(Weiter-)Entwicklung digitaler Pr\u00fcfungsformate (kom- petenzorientierte Pr\u00fcfungsgestaltung, Take Home Exams, Online-Klausuren, E-Portfolios, diagnostische/formative/summative Pr\u00fcfungs- formen)"@de;
+    skos:inScheme innov:;
+    skos:prefLabel "Pr\u00fcfungsformate"@de.
+

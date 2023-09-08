@@ -1,0 +1,207 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ent: <https://w3id.org/stil/entwicklungsmassnahmen/>.
+
+ent:
+    a skos:ConceptScheme;
+    dct:title "Entwicklungsma\u00dfnahmen"@de;
+    skos:hasTopConcept ent:0c324, ent:452a4, ent:9da74, ent:f5893 .
+ent:02d9d
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Anreizen f\u00fcr Leh- rende, Lehrprojekte zu entwickeln und umzusetzen (z. B. Verfahren zur Finanzierung, Ausschreibung und Auswahl von Lehrprojekten, Auszeichnung von Lehrprojekten, Entlastung von Lehrenden, Ideen- entwicklung f\u00fcr Lehrprojekte)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Akquise & Anreize "@de.
+ent:0c324
+    a skos:Concept;
+    skos:narrower
+    ent:02d9d, ent:1b034, ent:23ec0, ent:36134, ent:d96f9, ent:deb4a, ent:f1477;
+    skos:prefLabel "Rahmenbedingungen"@de;
+    skos:topConceptOf ent: .
+ent:0f2b1
+    a skos:Concept;
+    skos:broader ent:452a4;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten f\u00fcr die Vernetzung und den Austausch unter Lehrenden bzw. zwischen Lehrenden und Studierenden sowie zur Kollaboration bei der Entwicklung von Lehr-, Lern- und Pr\u00fcfungsformen (z. B. Lehrlabore, Arbeits- und Fachgruppen, Austauschformate)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Vernetzung, Austausch & Kollaboration"@de.
+ent:1b034
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur Schaffung von Rechtssicherheit f\u00fcr Lehrinnovationen (z. B. Verfahren zur Kl\u00e4rung von Fragen bzgl. Datenschutz, Informationssicherheit und Ethik, Pr\u00fcfungsrecht, Medien-/Urheberrecht, Kapazit\u00e4tsrecht und Lehrverpflichtung)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Rechtssicherheit"@de.
+ent:23ec0
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Verfahren f\u00fcr die curriculare und studienorganisatorische Ver- ankerung von Lehrinnovationen (z. B. \u00dcberarbeitung von Modulhandb\u00fcchern, Studien- und Pr\u00fcfungsord- nungen, Satzungen und Prozessbeschreibungen, Erarbeitung von Anrechnungsverfahren, Skalierung von Pilotprojekten)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Curriculare & studienorganisatorische Verankerung"@de.
+ent:257fd
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten f\u00fcr Lernbegleitung (z. B. tutorielle Unterst\u00fctzung, Mentoring-Programme, Informations-, Beratungs- und Coaching-Angebote)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Lernbegleitung"@de.
+ent:293dc
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung virtueller Lernumge- bungen als Unterst\u00fctzung ausgew\u00e4hlter fachspezi- fischer Lehrformate und Selbstlernmodule (z. B. AR-/VR-Systeme, Simulationen mit Avatar-Technik)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Virtuelle Lernumgebungen"@de.
+ent:36134
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur Ausarbeitung strategischer Leit- linien und Leitbilder (z. B. Digitalisierungsstrategie, Leitbild Lehre)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Strategische Verankerung"@de.
+ent:3e633
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Unterst\u00fctzung digitaler Workflows (z. B. Pr\u00fcfungsverwaltung, Lehrorganisation)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Verwaltungsprozesse"@de.
+ent:4520d
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Lehrformaten f\u00fcr ausgew\u00e4hlte Studienf\u00e4cher (z. B. Flipped/ Inverted Classroom-Konzepte, digitale Lehrkonzepte f\u00fcr Labordidaktik, interaktive Veranstaltungsformate, interdisziplin\u00e4re oder internationale Lehrkoopera- tionen)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Fachspezifische Lehrformate"@de.
+ent:452a4
+    a skos:Concept;
+    skos:narrower ent:0f2b1, ent:5b032, ent:98a6b, ent:b4cf9, ent:e88b5;
+    skos:prefLabel "Support-Angebote"@de;
+    skos:topConceptOf ent: .
+ent:4cb1a
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Lernassistenz- systemen und Lernstandsanalysen auf Basis von Learning Analytics und K\u00fcnstlicher Intelligenz (z. B. automatisiertes Feedback, digitalisierte Lernfortschrittskontrollen, adaptive Lernpfade und individualisierte Lernempfehlungen)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Lernassistenzsysteme & Lernstandsanalysen"@de.
+ent:57864
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Erweiterung und zum Betrieb der IT-Basis und Multimedia-Ausstattung als Voraus- setzung f\u00fcr digitale Lehr- und Lernaktivit\u00e4ten (z. B. Hardware und Software f\u00fcr Medienproduktion, mo- bile studentische Arbeitspl\u00e4tze, Netzwerk-Infrastruk- tur, Server-Kapazit\u00e4ten, Beschaffung, Erprobung, Aktualisierung und Pflege digitaler Tools, Ausleihe technischer Ausstattung)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "IT-Basis & Multimedia-Ausstattung"@de.
+ent:5b032
+    a skos:Concept;
+    skos:broader ent:452a4;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten zur Qualifizierung von studentischen Tutor:innen f\u00fcr die Unterst\u00fctzung von Studierenden und/ oder Lehrenden (z. B. medientechnische Qualifizierung, Peer-Learning-/ Lern-Coaching-Ausbildung)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel " Tutor:innen- Qualifizierung"@de.
+ent:5bfe9
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von digitalen Platt- formen und Kollaborations-Tools f\u00fcr die techni- schen Unterst\u00fctzung digitaler Lehr-Lernaktivit\u00e4ten (z. B. Erweiterungen bestehender Lernmanage- mentsysteme, Einf\u00fchrung von Kommunikations- und Kollaborationsinstrumenten, Aufbau von Repositorien)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Plattformen & Kollaborations-Tools"@de.
+ent:635ba
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Content, der auf (hochschul-)\u00f6ffentlichen Plattformen zur Ver- f\u00fcgung gestellt wird und von Studierenden im Selbststudium genutzt und/ oder von Lehrenden in Lehrveranstaltungen eingesetzt werden kann (z. B. digitale fachspezifische Lerneinheiten, digitale \u00fcberfachliche Lerneinheiten, Lehr-Lernvi- deos, E-Assessments, Online-Tutorials)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Selbstlernmodule, Lehrmedien & Self Assessment"@de.
+ent:6bf24
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten f\u00fcr digital gest\u00fctzte Pr\u00fcfungen (z. B. die kompetenz- orientierte Pr\u00fcfungsgestaltung, formative, diagnos- tische und summative Pr\u00fcfungsans\u00e4tze)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Pr\u00fcfungsformate & Pr\u00fcfungsaufgaben"@de.
+ent:90f42
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung der technischen Infrastruktur f\u00fcr digitale Pr\u00fcfungen (z. B. Infra- struktur und organisatorische Prozesse f\u00fcr E-Assessment, Pr\u00fcfungsplattformen, Werkzeuge f\u00fcr automatisierte Korrekturen, Software-Entwick- lung f\u00fcr formatives Pr\u00fcfen)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Pr\u00fcfungssysteme"@de.
+ent:98a6b
+    a skos:Concept;
+    skos:broader ent:452a4;
+    skos:definition
+        "Ma\u00dfnahmen zur Unterst\u00fctzung bei der Medien- produktion (z. B. Videoproducer, technischer Support), beim Einsatz digitaler Tools (z. B. E-Tutor:innen), bei der Umsetzung digitaler Lehre und Pr\u00fcfungen (z. B. Lehr-Coaching)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Coaching & Beratung"@de.
+ent:9da74
+    a skos:Concept;
+    skos:narrower
+    ent:257fd, ent:4520d, ent:635ba, ent:6bf24, ent:e3f53, ent:e64ab;
+    skos:prefLabel "Lehr- und Studienangebote"@de;
+    skos:topConceptOf ent: .
+ent:b4cf9
+    a skos:Concept;
+    skos:broader ent:452a4;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten f\u00fcr hochschul- bzw. mediendidaktische Qualifizierung von Lehrenden (z. B. hochschuldidaktisches Zerti- fikatsprogramm, Onboarding f\u00fcr Neuberufene)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Weiterbildung"@de.
+ent:bbc6a
+    a skos:Concept;
+    skos:broader ent:f5893;
+    skos:definition
+        "Ma\u00dfnahmen zur Einrichtung und technischen Ausstattung von Lehr-Lernr\u00e4umen f\u00fcr hybride Set- tings und neue Arbeitsformen (z. B. hybride Lehr- Lernr\u00e4ume zur Verschr\u00e4nkung von Online- und Pr\u00e4senzlehre, Maker-Spaces, Coworking-Spaces, studentische Lernfl\u00e4chen)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Lehr-Lernraum- ausstattung"@de.
+ent:d96f9
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur (Weiter-)Entwicklung des Qualit\u00e4ts- managements (z. B. Einf\u00fchrung von Qualit\u00e4tskrite- rien f\u00fcr digitale Lehre, Verfahren zur Evaluation bzw. Untersuchung digitaler Lehre, Qualit\u00e4tssicherung bzw. Evaluation von Studieng\u00e4ngen, Analyse von Be- stand, Bedarfen und Anforderungen digitaler Lehre)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Qualit\u00e4tsmanagement"@de.
+ent:deb4a
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zur Schaffung hochschul\u00fcbergreifender Support-Strukturen (z. B. Vernetzung von E-Learning- Einheiten)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Netzwerke"@de.
+ent:e3f53
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten zum Nachweis des Erwerbs digitaler Kompetenzen (z. B. Zertifikate, Nano Degrees, Badges)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Kompetenznachweise"@de.
+ent:e64ab
+    a skos:Concept;
+    skos:broader ent:9da74;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Formaten f\u00fcr\u00fcberfachliche Lehrangebote (z. B. Vermittlung digitaler Kompetenzen, Future Skills, F\u00f6rderung von wissenschaftlichem Arbeiten)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "\u00dcberfachliche Lernangebote"@de.
+ent:e88b5
+    a skos:Concept;
+    skos:broader ent:452a4;
+    skos:definition
+        "Ma\u00dfnahmen zur Entwicklung von Content f\u00fcr den eigenst\u00e4ndigen Wissensaufbau zum digital gest\u00fctzten Lehren und Pr\u00fcfen, der auf (hoch- schul-)\u00f6ffentlichen Plattformen zur Verf\u00fcgung gestellt wird (z. B. mediendidaktische Toolbox, Tutorials zu mediendidaktischen Kompetenzen, Best-Practice-Beispielsammlungen f\u00fcr digitale Lehrkonzepte)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Selbstlernmodule und Informationsmaterialien"@de.
+ent:f1477
+    a skos:Concept;
+    skos:broader ent:0c324;
+    skos:definition
+        "Ma\u00dfnahmen zum Aufbau bzw. Ausbau von Suppor- Zentren f\u00fcr digitale Lehre (z. B. Erweiterung bzw. Zusammenf\u00fchrung von Support-Services)"@de;
+    skos:inScheme ent:;
+    skos:prefLabel "Supportzentren"@de.
+ent:f5893
+    a skos:Concept;
+    skos:narrower
+    ent:293dc, ent:3e633, ent:4cb1a, ent:57864, ent:5bfe9, ent:90f42, ent:bbc6a;
+    skos:prefLabel "Technisch-r\u00e4umliche Infrastruktur"@de;
+    skos:topConceptOf ent: .
+
