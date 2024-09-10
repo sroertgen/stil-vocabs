@@ -15,7 +15,7 @@ n0:3ad9a a skos:Concept; skos:prefLabel "Studienphase"@de; skos:topConceptOf n0:
 
 n0:8e2b9
     a skos:Concept;
-    skos:prefLabel "Hochschul\u00fcbergreifend"@de;
+    skos:prefLabel "Hochschulübergreifend"@de;
     skos:topConceptOf n0: .
 n0:a0d8b a skos:Concept; skos:prefLabel "Studiengang"@de; skos:topConceptOf n0: .
 

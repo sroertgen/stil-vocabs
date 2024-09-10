@@ -30,7 +30,7 @@ foe:a1bf6
 foe:b030a
     a skos:Concept;
     skos:narrower foe:98f6c, foe:ca412;
-    skos:prefLabel "Rahmenbedingun- gen (hochschulin- tern)"@de;
+    skos:prefLabel "Rahmenbedingungen (hochschulintern)"@de;
     skos:topConceptOf foe: .
 foe:b04fe
     a skos:Concept;
