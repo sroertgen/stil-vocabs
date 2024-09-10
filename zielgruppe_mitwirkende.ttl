@@ -15,7 +15,7 @@ zie:16832
     a skos:Concept;
     skos:broader zie:d79aa;
     skos:inScheme zie:;
-    skos:prefLabel "Studentische Turot:innen / Mentir:innen"@de.
+    skos:prefLabel "Studentische Tutor:innen / Mentor:innen"@de.
 zie:16e9a
     a skos:Concept;
     skos:broader zie:406af;
