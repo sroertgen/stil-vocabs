@@ -1,0 +1,259 @@
+{
+  "id": "https://w3id.org/stil/zielgruppen-mitwirkende/406af",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Mitwirkende"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/06b38",
+      "prefLabel": {
+        "de": "Qualitätsmanagement"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/16e9a",
+      "prefLabel": {
+        "de": "Hochschul-/ Mediendidaktik/ E-Learning"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/5a36a",
+      "prefLabel": {
+        "de": "Präsidium/ Rektorat"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/64cfc",
+      "prefLabel": {
+        "de": "Chief Information Officer, IT-Ausschuss/ -Kommission"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/6783a",
+      "prefLabel": {
+        "de": "Außerhochschulische Akteur:innen"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/7546b",
+      "prefLabel": {
+        "de": "Hochschulbibliothek"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/88a16",
+      "prefLabel": {
+        "de": "Rechtsabteilung, Justiziariat"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/90402",
+      "prefLabel": {
+        "de": "Professor:innen"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/93301",
+      "prefLabel": {
+        "de": "Studierende"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/9c9d3",
+      "prefLabel": {
+        "de": "Rechenzentrum/ IT-Services"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/a34d4",
+      "prefLabel": {
+        "de": "Wissenschaftliche Mitarbeiter:innen/ LfBA/ LB"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/d76f3",
+      "prefLabel": {
+        "de": "Dekanat"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/e04a9",
+      "prefLabel": {
+        "de": "Studienberatung/ Studierendenservice"
+      }
+    },
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/f2067",
+      "prefLabel": {
+        "de": "Studentische Tutor:innen/ Mentor:innen"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/",
+      "title": {
+        "de": "Zielgruppen und Mitwirkende"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://w3id.org/stil/zielgruppen-mitwirkende/",
+      "title": {
+        "de": "Zielgruppen und Mitwirkende"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
