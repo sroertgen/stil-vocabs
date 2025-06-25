@@ -1,0 +1,2514 @@
+@base <https://w3id.org/stil/einrichtungen/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Einrichtungen"@de, "Institutions"@en ;
+    dct:description "Eine Werteliste für Bildungseinrichtungen in Deutschland."@de, "A value list for educational institutions in Germany."@en ;
+    dct:created "2025-06-25"^^xsd:date ;
+    dct:modified "2025-06-25"^^xsd:date ;
+    dct:issued "2025-06-25"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <7670>, <7020>, <2980>, <2990>, <5240>, <4030>, <0790>, <2430>, <1240>, <7730>, <1410>, <0020>, <4210>, <0560>, <1890>, <3130>, <0580>, <0700>, <0140>, <2290>, <7710>, <3430>, <4141>, <4020>, <4130>, <4200>, <4040>, <4244>, <4190>, <4270>, <1870>, <3971>, <4050>, <1760>, <1060>, <2600>, <0520>, <1680>, <0180>, <8191>, <1000>, <3140>, <0660>, <1510>, <4260>, <0910>, <90009>, <0860>, <1150>, <1230>, <0821>, <3260>, <3360>, <6401>, <4060>, <1470>, <8174>, <3242>, <90003>, <0160>, <1270>, <1542>, <0930>, <7820>, <1570>, <1700>, <3100>, <0670>, <6411>, <5260>, <90008>, <4070>, <0190>, <2450>, <7750>, <6271>, <5110>, <6900>, <3000>, <5230>, <7190>, <7370>, <6000>, <1550>, <5711>, <3250>, <0040>, <5901>, <5770>, <1850>, <7810>, <6320>, <5391>, <7850>, <2360>, <7060>, <7900>, <6180>, <7630>, <5061>, <5020>, <5891>, <8060>, <7950>, <5252>, <5050>, <5090>, <0150>, <5820>, <2550>, <1950>, <2571>, <8100>, <6370>, <6220>, <1830>, <0940>, <1380>, <1311>, <0490>, <1030>, <3270>, <3640>, <1160>, <1280>, <0690>, <5382>, <2211>, <1100>, <0800>, <0680>, <4081>, <6330>, <6345>, <5220>, <0630>, <1561>, <3290>, <8140>, <6710>, <6841>, <8033>, <6720>, <5731>, <5751>, <8111>, <5680>, <5660>, <6211>, <3080>, <2770>, <0061>, <6620>, <6360>, <6860>, <7890>, <8180>, <5190>, <1970>, <6205>, <5780>, <4991>, <6731>, <5010>, <6281>, <6290>, <7560>, <7220>, <5210>, <7531>, <7440>, <7450>, <7240>, <7570>, <7312>, <6680>, <2900>, <2830>, <2630>, <2810>, <7467>, <3020>, <2730>, <6190>, <6640>, <1500>, <7110>, <3230>, <2920>, <7050>, <1770>, <90002>, <2640>, <2300>, <3040>, <2930>, <0710>, <3121>, <2610>, <5430>, <2800>, <2561>, <2850>, <2650>, <2520>, <2670>, <3011>, <2760>, <2620>, <2582>, <2740>, <2500>, <2720>, <3030>, <2710>, <2530>, <7920>, <5670>, <6631>, <2170>, <1710>, <6071>, <7140>, <7120>, <2540>, <2240>, <6850>, <90004>, <7690>, <7610>, <5120>, <5130>, <6650>, <5412>, <6791>, <6741>, <2200>, <3071>, <5330>, <8021>, <6751>, <6521>, <6760>, <6531>, <6770>, <7070>, <0030>, <8011>, <6670>, <6780>, <6380>, <8000>, <5140>, <7780>, <5841>, <7880>, <6800>, <5501>, <6810>, <6820>, <6830>, <6244>, <3061>, <3052>, <7830>, <7790>, <6581>, <1780>, <7840>, <6660>, <5150>, <8090>, <3091>, <90001>, <0200>, <7721>, <0760>, <4150>, <1520>, <5690>, <4091>, <1940>, <0720>, <90005>, <4230>, <2280>, <5723>, <4981>, <1221>, <1330>, <1170>, <8150>, <6910>, <7700>, <6600>, <6031>, <7381>, <0551>, <2271>, <1580>, <1639>, <1499>, <1329>, <0529>, <1960>, <2060>, <3790>, <0750>, <2860>, <2890>, <2880>, <0013>, <1910>, <1450>, <0990>, <1320>, <2320>, <0301>, <4960>, <5270>, <2420>, <1730>, <90007>, <6970>, <1990>, <1880>, <7580>, <4100>, <2590>, <5080>, <2410>, <5280>, <7990>, <0740>, <7551>, <7260>, <5312>, <1190>, <0500>, <0310>, <3660>, <3670>, <3680>, <3711>, <3700>, <3780>, <2490>, <1180>, <2020>, <2080>, <90011>, <90006>, <2440>, <4110>, <5400>, <6690>, <1840>, <1600>, <1090>, <5990>, <1480>, <1210>, <2870>, <1080>, <1250>, <7180>, <7090>, <2940>, <2950>, <2960>, <2700>, <2660>, <2690>, <7960>, <1740>, <7590>, <7210>, <6510>, <7910>, <7520>, <5980>, <7540>, <5831>, <5030>, <6231>, <7250>, <5861>, <7300>, <6870>, <7940>, <7352>, <0390>, <1690>, <1430>, <0380>, <1440>, <1530>, <1130>, <0370>, <1040>, <0590>, <1630>, <2000>, <2030>, <2040>, <6430>, <2220>, <2350>, <7680>, <7860>, <90010>, <0170>, <0014>, <1489>, <1350>, <0510>, <1140>, <1050>, <0811>, <2790>, <1360>, <0080>, <0620>, <0270>, <1020>, <0980>, <1800>, <0011>, <1291>, <1260>, <0360>, <1810>, <1120>, <0530>, <0121>, <0540>, <3500>, <1340>, <0260>, <0130>, <1590>, <1200>, <1820>, <0960>, <1490>, <1110>, <1010>, <1359>, <1099>, <0379>, <1089>, <1369>, <1109>, <1319>, <0089>, <1169>, <1249>, <1378>, <0309>, <1029>, <1259>, <0499>, <1119>, <0369>, <0319>, <1258>, <1129>, <1149>, <1349>, <0950>, <1279>, <1829>, <1339>, <1039>, <0279>, <1390>, <0269>, <5801>, <3720>, <3370>, <1921>, <2050>, <4160>, <4170>, <2381>, <2510>, <5701>, <5161>, <4120>, <6390>, <3490>, <1460>, <90013>, <90014>, <90015>, <90016>, <90017>, <90018>, <90019>, <90020> .
+
+<7670> a skos:Concept ;
+    skos:prefLabel "accadis Hochschule Bad Homburg"@de ;
+    skos:notation "7670" ;
+    skos:topConceptOf <> .
+
+<7020> a skos:Concept ;
+    skos:prefLabel "AKAD Fernhochschule Stuttgart"@de ;
+    skos:notation "7020" ;
+    skos:topConceptOf <> .
+
+<2980> a skos:Concept ;
+    skos:prefLabel "Akademie der Bildenden Künste München"@de ;
+    skos:notation "2980" ;
+    skos:topConceptOf <> .
+
+<2990> a skos:Concept ;
+    skos:prefLabel "Akademie der Bildenden Künste Nürnberg"@de ;
+    skos:notation "2990" ;
+    skos:topConceptOf <> .
+
+<5240> a skos:Concept ;
+    skos:prefLabel "Akademie der Polizei Hamburg"@de ;
+    skos:notation "5240" ;
+    skos:topConceptOf <> .
+
+<4030> a skos:Concept ;
+    skos:prefLabel "Akademie für Tonkunst, Darmstadt"@de ;
+    skos:notation "4030" ;
+    skos:topConceptOf <> .
+
+<0790> a skos:Concept ;
+    skos:prefLabel "Akkon Hochschule für Humanwissenschaften"@de ;
+    skos:notation "0790" ;
+    skos:topConceptOf <> .
+
+<2430> a skos:Concept ;
+    skos:prefLabel "Alanus Hochschule"@de ;
+    skos:notation "2430" ;
+    skos:topConceptOf <> .
+
+<1240> a skos:Concept ;
+    skos:prefLabel "Albert-Ludwigs-Universität Freiburg im Breisgau"@de ;
+    skos:notation "1240" ;
+    skos:topConceptOf <> .
+
+<7730> a skos:Concept ;
+    skos:prefLabel "Alice Salomon Hochschule Berlin"@de ;
+    skos:notation "7730" ;
+    skos:topConceptOf <> .
+
+<1410> a skos:Concept ;
+    skos:prefLabel "Allensbach Hochschule Konstanz"@de ;
+    skos:notation "1410" ;
+    skos:topConceptOf <> .
+
+<0020> a skos:Concept ;
+    skos:prefLabel "Apollon Hochschule der Gesundheitswirtschaft"@de ;
+    skos:notation "0020" ;
+    skos:topConceptOf <> .
+
+<4210> a skos:Concept ;
+    skos:prefLabel "ASW Berufsakademie Saarland"@de ;
+    skos:notation "4210" ;
+    skos:topConceptOf <> .
+
+<0560> a skos:Concept ;
+    skos:prefLabel "Augustana-Hochschule Neuendettelsau"@de ;
+    skos:notation "0560" ;
+    skos:topConceptOf <> .
+
+<1890> a skos:Concept ;
+    skos:prefLabel "Bard College Berlin, A Liberal Arts University"@de ;
+    skos:notation "1890" ;
+    skos:topConceptOf <> .
+
+<3130> a skos:Concept ;
+    skos:prefLabel "Barenboim-Said Akademie Berlin"@de ;
+    skos:notation "3130" ;
+    skos:topConceptOf <> .
+
+<0580> a skos:Concept ;
+    skos:prefLabel "Bauhaus-Universität Weimar"@de ;
+    skos:notation "0580" ;
+    skos:topConceptOf <> .
+
+<0700> a skos:Concept ;
+    skos:prefLabel "bbw Hochschule - University of Applied Sciences"@de ;
+    skos:notation "0700" ;
+    skos:topConceptOf <> .
+
+<0140> a skos:Concept ;
+    skos:prefLabel "Bergische Universität Wuppertal"@de ;
+    skos:notation "0140" ;
+    skos:topConceptOf <> .
+
+<2290> a skos:Concept ;
+    skos:prefLabel "Berlin International University of Applied Sciences"@de ;
+    skos:notation "2290" ;
+    skos:topConceptOf <> .
+
+<7710> a skos:Concept ;
+    skos:prefLabel "Berliner Hochschule für Technik"@de ;
+    skos:notation "7710" ;
+    skos:topConceptOf <> .
+
+<3430> a skos:Concept ;
+    skos:prefLabel "Berufliche Hochschule Hamburg (BHH)"@de ;
+    skos:notation "3430" ;
+    skos:topConceptOf <> .
+
+<4141> a skos:Concept ;
+    skos:prefLabel "Berufsakademie für Bankwirtschaft Hannover-Rastede"@de ;
+    skos:notation "4141" ;
+    skos:topConceptOf <> .
+
+<4020> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Hamburg"@de ;
+    skos:notation "4020" ;
+    skos:topConceptOf <> .
+
+<4130> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Holztechnik Melle"@de ;
+    skos:notation "4130" ;
+    skos:topConceptOf <> .
+
+<4200> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Nord GmbH"@de ;
+    skos:notation "4200" ;
+    skos:topConceptOf <> .
+
+<4040> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Rhein-Main"@de ;
+    skos:notation "4040" ;
+    skos:topConceptOf <> .
+
+<4244> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Sachsen"@de ;
+    skos:notation "4244" ;
+    skos:topConceptOf <> .
+
+<4190> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Welfenakademie Braunschweig"@de ;
+    skos:notation "4190" ;
+    skos:topConceptOf <> .
+
+<4270> a skos:Concept ;
+    skos:prefLabel "Berufsakademie Wilhelmshaven"@de ;
+    skos:notation "4270" ;
+    skos:topConceptOf <> .
+
+<1870> a skos:Concept ;
+    skos:prefLabel "Brand University of Applied Sciences Hamburg"@de ;
+    skos:notation "1870" ;
+    skos:topConceptOf <> .
+
+<3971> a skos:Concept ;
+    skos:prefLabel "Brandenburgische Technische Universität Cottbus-Senftenberg"@de ;
+    skos:notation "3971" ;
+    skos:topConceptOf <> .
+
+<4050> a skos:Concept ;
+    skos:prefLabel "Brüder-Grimm-Berufsakademie Hanau"@de ;
+    skos:notation "4050" ;
+    skos:topConceptOf <> .
+
+<1760> a skos:Concept ;
+    skos:prefLabel "BSP Business and Law School - Hochschule für Management und Recht Berlin"@de ;
+    skos:notation "1760" ;
+    skos:topConceptOf <> .
+
+<1060> a skos:Concept ;
+    skos:prefLabel "Bucerius Law School Hamburg"@de ;
+    skos:notation "1060" ;
+    skos:topConceptOf <> .
+
+<2600> a skos:Concept ;
+    skos:prefLabel "Burg Giebichenstein Kunsthochschule Halle"@de ;
+    skos:notation "2600" ;
+    skos:topConceptOf <> .
+
+<0520> a skos:Concept ;
+    skos:prefLabel "Carl von Ossietzky Universität Oldenburg"@de ;
+    skos:notation "0520" ;
+    skos:topConceptOf <> .
+
+<1680> a skos:Concept ;
+    skos:prefLabel "CBS International Business School"@de ;
+    skos:notation "1680" ;
+    skos:topConceptOf <> .
+
+<0180> a skos:Concept ;
+    skos:prefLabel "Charité - Universitätsmedizin Berlin"@de ;
+    skos:notation "0180" ;
+    skos:topConceptOf <> .
+
+<8191> a skos:Concept ;
+    skos:prefLabel "Charlotte Fresenius Hochschule"@de ;
+    skos:notation "8191" ;
+    skos:topConceptOf <> .
+
+<1000> a skos:Concept ;
+    skos:prefLabel "Christian-Albrechts-Universität zu Kiel"@de ;
+    skos:notation "1000" ;
+    skos:topConceptOf <> .
+
+<3140> a skos:Concept ;
+    skos:prefLabel "CODE University of Applied Sciences Berlin"@de ;
+    skos:notation "3140" ;
+    skos:topConceptOf <> .
+
+<0660> a skos:Concept ;
+    skos:prefLabel "Constructor University Bremen"@de ;
+    skos:notation "0660" ;
+    skos:topConceptOf <> .
+
+<1510> a skos:Concept ;
+    skos:prefLabel "CVJM-Hochschule Kassel"@de ;
+    skos:notation "1510" ;
+    skos:topConceptOf <> .
+
+<4260> a skos:Concept ;
+    skos:prefLabel "Deutsche Berufsakademie Sport und Gesundheit"@de ;
+    skos:notation "4260" ;
+    skos:topConceptOf <> .
+
+<0910> a skos:Concept ;
+    skos:prefLabel "Deutsche Hochschule der Polizei, Münster"@de ;
+    skos:notation "0910" ;
+    skos:topConceptOf <> .
+
+<90009> a skos:Concept ;
+    skos:prefLabel "Deutsche Hochschule für angewandte Wissenschaften"@de ;
+    skos:notation "90009" ;
+    skos:topConceptOf <> .
+
+<0860> a skos:Concept ;
+    skos:prefLabel "Deutsche Hochschule für Prävention und Gesundheitsmanagement"@de ;
+    skos:notation "0860" ;
+    skos:topConceptOf <> .
+
+<1150> a skos:Concept ;
+    skos:prefLabel "Deutsche Sporthochschule in Köln"@de ;
+    skos:notation "1150" ;
+    skos:topConceptOf <> .
+
+<1230> a skos:Concept ;
+    skos:prefLabel "Deutsche Universität für Verwaltungswissenschaften Speyer"@de ;
+    skos:notation "1230" ;
+    skos:topConceptOf <> .
+
+<0821> a skos:Concept ;
+    skos:prefLabel "DHGS Deutsche Hochschule für Gesundheit und Sport"@de ;
+    skos:notation "0821" ;
+    skos:topConceptOf <> .
+
+<3260> a skos:Concept ;
+    skos:prefLabel "DHSH - Duale Hochschule Schleswig-Holstein, Kiel"@de ;
+    skos:notation "3260" ;
+    skos:topConceptOf <> .
+
+<3360> a skos:Concept ;
+    skos:prefLabel "Digital Business University of Applied Sciences Berlin"@de ;
+    skos:notation "3360" ;
+    skos:topConceptOf <> .
+
+<6401> a skos:Concept ;
+    skos:prefLabel "DIPLOMA Hochschule - Private Fachhochschule Nordhessen"@de ;
+    skos:notation "6401" ;
+    skos:topConceptOf <> .
+
+<4060> a skos:Concept ;
+    skos:prefLabel "Dr. Hoch's Konservatorium - Musikakademie Frankfurt am Main"@de ;
+    skos:notation "4060" ;
+    skos:topConceptOf <> .
+
+<1470> a skos:Concept ;
+    skos:prefLabel "Dresden International University"@de ;
+    skos:notation "1470" ;
+    skos:topConceptOf <> .
+
+<8174> a skos:Concept ;
+    skos:prefLabel "Duale Hochschule Baden-Württemberg"@de ;
+    skos:notation "8174" ;
+    skos:topConceptOf <> .
+
+<3242> a skos:Concept ;
+    skos:prefLabel "Duale Hochschule Gera-Eisenach"@de ;
+    skos:notation "3242" ;
+    skos:topConceptOf <> .
+
+<90003> a skos:Concept ;
+    skos:prefLabel "Duale Hochschule Sachsen"@de ;
+    skos:notation "90003" ;
+    skos:topConceptOf <> .
+
+<0160> a skos:Concept ;
+    skos:prefLabel "EBC Euro Business College Hamburg"@de ;
+    skos:notation "0160" ;
+    skos:topConceptOf <> .
+
+<1270> a skos:Concept ;
+    skos:prefLabel "Eberhard Karls Universität Tübingen"@de ;
+    skos:notation "1270" ;
+    skos:topConceptOf <> .
+
+<1542> a skos:Concept ;
+    skos:prefLabel "EBS Universität für Wirtschaft und Recht"@de ;
+    skos:notation "1542" ;
+    skos:topConceptOf <> .
+
+<0930> a skos:Concept ;
+    skos:prefLabel "EBZ Business School Bochum"@de ;
+    skos:notation "0930" ;
+    skos:topConceptOf <> .
+
+<7820> a skos:Concept ;
+    skos:prefLabel "Ernst-Abbe-Hochschule Jena"@de ;
+    skos:notation "7820" ;
+    skos:topConceptOf <> .
+
+<1570> a skos:Concept ;
+    skos:prefLabel "ESAB Fachhochschule für Sport und Management Potsdam"@de ;
+    skos:notation "1570" ;
+    skos:topConceptOf <> .
+
+<1700> a skos:Concept ;
+    skos:prefLabel "ESCP Europe Wirtschaftshochschule Berlin"@de ;
+    skos:notation "1700" ;
+    skos:topConceptOf <> .
+
+<3100> a skos:Concept ;
+    skos:prefLabel "EUF - Europa-Universität Flensburg"@de ;
+    skos:notation "3100" ;
+    skos:topConceptOf <> .
+
+<0670> a skos:Concept ;
+    skos:prefLabel "Europ. School of Management and Technology, Berlin"@de ;
+    skos:notation "0670" ;
+    skos:topConceptOf <> .
+
+<6411> a skos:Concept ;
+    skos:prefLabel "Europäische Fachhochschule (EUFH)"@de ;
+    skos:notation "6411" ;
+    skos:topConceptOf <> .
+
+<5260> a skos:Concept ;
+    skos:prefLabel "Europäische Fernhochschule Hamburg"@de ;
+    skos:notation "5260" ;
+    skos:topConceptOf <> .
+
+<90008> a skos:Concept ;
+    skos:prefLabel "Europäische Hochschule für Innovation und Perspektive"@de ;
+    skos:notation "90008" ;
+    skos:topConceptOf <> .
+
+<4070> a skos:Concept ;
+    skos:prefLabel "Europäische Studienakademie Kälte-Klima-Lüftung"@de ;
+    skos:notation "4070" ;
+    skos:topConceptOf <> .
+
+<0190> a skos:Concept ;
+    skos:prefLabel "Europa-Universität Viadrina, Frankfurt (Oder)"@de ;
+    skos:notation "0190" ;
+    skos:topConceptOf <> .
+
+<2450> a skos:Concept ;
+    skos:prefLabel "European University of Applied Sciences"@de ;
+    skos:notation "2450" ;
+    skos:topConceptOf <> .
+
+<7750> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Berlin"@de ;
+    skos:notation "7750" ;
+    skos:topConceptOf <> .
+
+<6271> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Darmstadt"@de ;
+    skos:notation "6271" ;
+    skos:topConceptOf <> .
+
+<5110> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Dresden"@de ;
+    skos:notation "5110" ;
+    skos:topConceptOf <> .
+
+<6900> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Freiburg im Breisgau"@de ;
+    skos:notation "6900" ;
+    skos:topConceptOf <> .
+
+<3000> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule für Kirchenmusik Halle"@de ;
+    skos:notation "3000" ;
+    skos:topConceptOf <> .
+
+<5230> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule für Soziale Arbeit und Diakonie Hamburg"@de ;
+    skos:notation "5230" ;
+    skos:topConceptOf <> .
+
+<7190> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Ludwigsburg"@de ;
+    skos:notation "7190" ;
+    skos:topConceptOf <> .
+
+<7370> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Nürnberg"@de ;
+    skos:notation "7370" ;
+    skos:topConceptOf <> .
+
+<6000> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Rheinland-Westfalen-Lippe Bochum"@de ;
+    skos:notation "6000" ;
+    skos:topConceptOf <> .
+
+<1550> a skos:Concept ;
+    skos:prefLabel "Evangelische Hochschule Tabor, Marburg"@de ;
+    skos:notation "1550" ;
+    skos:topConceptOf <> .
+
+<5711> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Aachen"@de ;
+    skos:notation "5711" ;
+    skos:topConceptOf <> .
+
+<3250> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Clara Hoffbauer Potsdam"@de ;
+    skos:notation "3250" ;
+    skos:topConceptOf <> .
+
+<0040> a skos:Concept ;
+    skos:prefLabel "Fachhochschule der Diakonie Bielefeld-Bethel"@de ;
+    skos:notation "0040" ;
+    skos:topConceptOf <> .
+
+<5901> a skos:Concept ;
+    skos:prefLabel "Fachhochschule der Wirtschaft (FHDW), Paderborn"@de ;
+    skos:notation "5901" ;
+    skos:topConceptOf <> .
+
+<5770> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Dortmund"@de ;
+    skos:notation "5770" ;
+    skos:topConceptOf <> .
+
+<1850> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Dresden"@de ;
+    skos:notation "1850" ;
+    skos:topConceptOf <> .
+
+<7810> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Erfurt"@de ;
+    skos:notation "7810" ;
+    skos:topConceptOf <> .
+
+<6320> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Archivwesen Marburg"@de ;
+    skos:notation "6320" ;
+    skos:topConceptOf <> .
+
+<5391> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für die Wirtschaft Hannover"@de ;
+    skos:notation "5391" ;
+    skos:topConceptOf <> .
+
+<7850> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Finanzen des Landes Brandenburg"@de ;
+    skos:notation "7850" ;
+    skos:topConceptOf <> .
+
+<2360> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Interkulturelle Theologie Hermannsburg"@de ;
+    skos:notation "2360" ;
+    skos:topConceptOf <> .
+
+<7060> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für öffentliche Verwaltung Kehl"@de ;
+    skos:notation "7060" ;
+    skos:topConceptOf <> .
+
+<7900> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege"@de ;
+    skos:notation "7900" ;
+    skos:topConceptOf <> .
+
+<6180> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Rechtspflege Nordrhein-Westfalen"@de ;
+    skos:notation "6180" ;
+    skos:topConceptOf <> .
+
+<7630> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Verwaltung Saarbrücken"@de ;
+    skos:notation "7630" ;
+    skos:topConceptOf <> .
+
+<5061> a skos:Concept ;
+    skos:prefLabel "Fachhochschule für Verwaltung und Dienstleistung Altenholz"@de ;
+    skos:notation "5061" ;
+    skos:topConceptOf <> .
+
+<5020> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Kiel"@de ;
+    skos:notation "5020" ;
+    skos:topConceptOf <> .
+
+<5891> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Münster University of Applied Sciences"@de ;
+    skos:notation "5891" ;
+    skos:topConceptOf <> .
+
+<8060> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Polizei Sachsen-Anhalt"@de ;
+    skos:notation "8060" ;
+    skos:topConceptOf <> .
+
+<7950> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Potsdam"@de ;
+    skos:notation "7950" ;
+    skos:topConceptOf <> .
+
+<5252> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Südwestfalen"@de ;
+    skos:notation "5252" ;
+    skos:topConceptOf <> .
+
+<5050> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Wedel"@de ;
+    skos:notation "5050" ;
+    skos:topConceptOf <> .
+
+<5090> a skos:Concept ;
+    skos:prefLabel "Fachhochschule Westküste"@de ;
+    skos:notation "5090" ;
+    skos:topConceptOf <> .
+
+<0150> a skos:Concept ;
+    skos:prefLabel "FernUniversität Hagen"@de ;
+    skos:notation "0150" ;
+    skos:topConceptOf <> .
+
+<5820> a skos:Concept ;
+    skos:prefLabel "FHM - Fachhochschule des Mittelstandes"@de ;
+    skos:notation "5820" ;
+    skos:topConceptOf <> .
+
+<2550> a skos:Concept ;
+    skos:prefLabel "Filmuniversität Babelsberg"@de ;
+    skos:notation "2550" ;
+    skos:topConceptOf <> .
+
+<1950> a skos:Concept ;
+    skos:prefLabel "Fliedner Fachhochschule Düsseldorf"@de ;
+    skos:notation "1950" ;
+    skos:topConceptOf <> .
+
+<2571> a skos:Concept ;
+    skos:prefLabel "Folkwang Universität der Künste"@de ;
+    skos:notation "2571" ;
+    skos:topConceptOf <> .
+
+<8100> a skos:Concept ;
+    skos:prefLabel "FOM - Hochschule für ökonomie und Management"@de ;
+    skos:notation "8100" ;
+    skos:topConceptOf <> .
+
+<6370> a skos:Concept ;
+    skos:prefLabel "Frankfurt School of Finance and Management"@de ;
+    skos:notation "6370" ;
+    skos:topConceptOf <> .
+
+<6220> a skos:Concept ;
+    skos:prefLabel "Frankfurt University of Applied Sciences"@de ;
+    skos:notation "6220" ;
+    skos:topConceptOf <> .
+
+<1830> a skos:Concept ;
+    skos:prefLabel "Freie Hochschule Stuttgart"@de ;
+    skos:notation "1830" ;
+    skos:topConceptOf <> .
+
+<0940> a skos:Concept ;
+    skos:prefLabel "Freie Theologische Hochschule Gießen"@de ;
+    skos:notation "0940" ;
+    skos:topConceptOf <> .
+
+<1380> a skos:Concept ;
+    skos:prefLabel "Freie Universität Berlin"@de ;
+    skos:notation "1380" ;
+    skos:topConceptOf <> .
+
+<1311> a skos:Concept ;
+    skos:prefLabel "Friedrich-Alexander-Universität Erlangen-Nürnberg"@de ;
+    skos:notation "1311" ;
+    skos:topConceptOf <> .
+
+<0490> a skos:Concept ;
+    skos:prefLabel "Friedrich-Schiller-Universität Jena"@de ;
+    skos:notation "0490" ;
+    skos:topConceptOf <> .
+
+<1030> a skos:Concept ;
+    skos:prefLabel "Georg-August-Universität Göttingen"@de ;
+    skos:notation "1030" ;
+    skos:topConceptOf <> .
+
+<3270> a skos:Concept ;
+    skos:prefLabel "German International University Berlin"@de ;
+    skos:notation "3270" ;
+    skos:topConceptOf <> .
+
+<3640> a skos:Concept ;
+    skos:prefLabel "GISMA Business School Potsdam"@de ;
+    skos:notation "3640" ;
+    skos:topConceptOf <> .
+
+<1160> a skos:Concept ;
+    skos:prefLabel "Goethe-Universität Frankfurt am Main"@de ;
+    skos:notation "1160" ;
+    skos:topConceptOf <> .
+
+<1280> a skos:Concept ;
+    skos:prefLabel "Gustav-Siewerth-Akademie"@de ;
+    skos:notation "1280" ;
+    skos:topConceptOf <> .
+
+<0690> a skos:Concept ;
+    skos:prefLabel "HafenCity Universität Hamburg"@de ;
+    skos:notation "0690" ;
+    skos:topConceptOf <> .
+
+<5382> a skos:Concept ;
+    skos:prefLabel "HAWK Hildesheim/Holzminden/Göttingen"@de ;
+    skos:notation "5382" ;
+    skos:topConceptOf <> .
+
+<2211> a skos:Concept ;
+    skos:prefLabel "HDBW - Hochschule der Bayerischen Wirtschaft"@de ;
+    skos:notation "2211" ;
+    skos:topConceptOf <> .
+
+<1100> a skos:Concept ;
+    skos:prefLabel "Heinrich-Heine-Universität Düsseldorf"@de ;
+    skos:notation "1100" ;
+    skos:topConceptOf <> .
+
+<0800> a skos:Concept ;
+    skos:prefLabel "Helmut-Schmidt Universität - Universität der Bundeswehr Hamburg"@de ;
+    skos:notation "0800" ;
+    skos:topConceptOf <> .
+
+<0680> a skos:Concept ;
+    skos:prefLabel "Hertie School of Governance Berlin"@de ;
+    skos:notation "0680" ;
+    skos:topConceptOf <> .
+
+<4081> a skos:Concept ;
+    skos:prefLabel "Hessische Berufsakademie Frankfurt"@de ;
+    skos:notation "4081" ;
+    skos:topConceptOf <> .
+
+<6330> a skos:Concept ;
+    skos:prefLabel "Hessische Hochschule für Finanzen und Rechtspflege Rotenburg"@de ;
+    skos:notation "6330" ;
+    skos:topConceptOf <> .
+
+<6345> a skos:Concept ;
+    skos:prefLabel "Hessische Hochschule für Polizei und Verwaltung"@de ;
+    skos:notation "6345" ;
+    skos:topConceptOf <> .
+
+<5220> a skos:Concept ;
+    skos:prefLabel "HFH - Hamburger Fern-Hochschule"@de ;
+    skos:notation "5220" ;
+    skos:topConceptOf <> .
+
+<0630> a skos:Concept ;
+    skos:prefLabel "HHL Leipzig Graduate School of Management"@de ;
+    skos:notation "0630" ;
+    skos:topConceptOf <> .
+
+<1561> a skos:Concept ;
+    skos:prefLabel "HMKW Hochschule für Medien, Kommunikation und Wirtschaft Berlin"@de ;
+    skos:notation "1561" ;
+    skos:topConceptOf <> .
+
+<3290> a skos:Concept ;
+    skos:prefLabel "HMU Health and Medical University"@de ;
+    skos:notation "3290" ;
+    skos:topConceptOf <> .
+
+<8140> a skos:Concept ;
+    skos:prefLabel "Hochschule 21"@de ;
+    skos:notation "8140" ;
+    skos:topConceptOf <> .
+
+<6710> a skos:Concept ;
+    skos:prefLabel "Hochschule Aalen - Technik und Wirtschaft"@de ;
+    skos:notation "6710" ;
+    skos:topConceptOf <> .
+
+<6841> a skos:Concept ;
+    skos:prefLabel "Hochschule Albstadt-Sigmaringen"@de ;
+    skos:notation "6841" ;
+    skos:topConceptOf <> .
+
+<8033> a skos:Concept ;
+    skos:prefLabel "Hochschule Anhalt - Anhalt University of Applied Sciences"@de ;
+    skos:notation "8033" ;
+    skos:topConceptOf <> .
+
+<6720> a skos:Concept ;
+    skos:prefLabel "Hochschule Biberach an der Riss"@de ;
+    skos:notation "6720" ;
+    skos:topConceptOf <> .
+
+<5731> a skos:Concept ;
+    skos:prefLabel "Hochschule Bielefeld"@de ;
+    skos:notation "5731" ;
+    skos:topConceptOf <> .
+
+<5751> a skos:Concept ;
+    skos:prefLabel "Hochschule Bochum - University of Applied Sciences"@de ;
+    skos:notation "5751" ;
+    skos:topConceptOf <> .
+
+<8111> a skos:Concept ;
+    skos:prefLabel "Hochschule Bonn-Rhein-Sieg"@de ;
+    skos:notation "8111" ;
+    skos:topConceptOf <> .
+
+<5680> a skos:Concept ;
+    skos:prefLabel "Hochschule Bremen"@de ;
+    skos:notation "5680" ;
+    skos:topConceptOf <> .
+
+<5660> a skos:Concept ;
+    skos:prefLabel "Hochschule Bremerhaven"@de ;
+    skos:notation "5660" ;
+    skos:topConceptOf <> .
+
+<6211> a skos:Concept ;
+    skos:prefLabel "Hochschule Darmstadt (h_da)"@de ;
+    skos:notation "6211" ;
+    skos:topConceptOf <> .
+
+<3080> a skos:Concept ;
+    skos:prefLabel "Hochschule der Bildenden Künste Essen"@de ;
+    skos:notation "3080" ;
+    skos:topConceptOf <> .
+
+<2770> a skos:Concept ;
+    skos:prefLabel "Hochschule der Bildenden Künste Saar"@de ;
+    skos:notation "2770" ;
+    skos:topConceptOf <> .
+
+<0061> a skos:Concept ;
+    skos:prefLabel "Hochschule der Bundesagentur für Arbeit"@de ;
+    skos:notation "0061" ;
+    skos:topConceptOf <> .
+
+<6620> a skos:Concept ;
+    skos:prefLabel "Hochschule der Deutschen Bundesbank"@de ;
+    skos:notation "6620" ;
+    skos:topConceptOf <> .
+
+<6360> a skos:Concept ;
+    skos:prefLabel "Hochschule der Deutschen Gesetzlichen Unfallversicherung"@de ;
+    skos:notation "6360" ;
+    skos:topConceptOf <> .
+
+<6860> a skos:Concept ;
+    skos:prefLabel "Hochschule der Medien Stuttgart"@de ;
+    skos:notation "6860" ;
+    skos:topConceptOf <> .
+
+<7890> a skos:Concept ;
+    skos:prefLabel "Hochschule der Polizei Brandenburg"@de ;
+    skos:notation "7890" ;
+    skos:topConceptOf <> .
+
+<8180> a skos:Concept ;
+    skos:prefLabel "Hochschule der Polizei Rheinland-Pfalz"@de ;
+    skos:notation "8180" ;
+    skos:topConceptOf <> .
+
+<5190> a skos:Concept ;
+    skos:prefLabel "Hochschule der Sächsischen Polizei"@de ;
+    skos:notation "5190" ;
+    skos:topConceptOf <> .
+
+<1970> a skos:Concept ;
+    skos:prefLabel "Hochschule der Wirtschaft für Management in Mannheim"@de ;
+    skos:notation "1970" ;
+    skos:topConceptOf <> .
+
+<6205> a skos:Concept ;
+    skos:prefLabel "Hochschule des Bundes für öffentliche Verwaltung"@de ;
+    skos:notation "6205" ;
+    skos:topConceptOf <> .
+
+<5780> a skos:Concept ;
+    skos:prefLabel "Hochschule Düsseldorf"@de ;
+    skos:notation "5780" ;
+    skos:topConceptOf <> .
+
+<4991> a skos:Concept ;
+    skos:prefLabel "Hochschule Emden/Leer"@de ;
+    skos:notation "4991" ;
+    skos:topConceptOf <> .
+
+<6731> a skos:Concept ;
+    skos:prefLabel "Hochschule Esslingen"@de ;
+    skos:notation "6731" ;
+    skos:topConceptOf <> .
+
+<5010> a skos:Concept ;
+    skos:prefLabel "Hochschule Flensburg"@de ;
+    skos:notation "5010" ;
+    skos:topConceptOf <> .
+
+<6281> a skos:Concept ;
+    skos:prefLabel "Hochschule Fresenius Idstein"@de ;
+    skos:notation "6281" ;
+    skos:topConceptOf <> .
+
+<6290> a skos:Concept ;
+    skos:prefLabel "Hochschule Fulda"@de ;
+    skos:notation "6290" ;
+    skos:topConceptOf <> .
+
+<7560> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Ansbach"@de ;
+    skos:notation "7560" ;
+    skos:topConceptOf <> .
+
+<7220> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Coburg"@de ;
+    skos:notation "7220" ;
+    skos:topConceptOf <> .
+
+<5210> a skos:Concept ;
+    skos:prefLabel "Hochschule für Angewandte Wissenschaften Hamburg"@de ;
+    skos:notation "5210" ;
+    skos:topConceptOf <> .
+
+<7531> a skos:Concept ;
+    skos:prefLabel "Hochschule für Angewandte Wissenschaften Hof"@de ;
+    skos:notation "7531" ;
+    skos:topConceptOf <> .
+
+<7440> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Kempten"@de ;
+    skos:notation "7440" ;
+    skos:topConceptOf <> .
+
+<7450> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Landshut"@de ;
+    skos:notation "7450" ;
+    skos:topConceptOf <> .
+
+<7240> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften München"@de ;
+    skos:notation "7240" ;
+    skos:topConceptOf <> .
+
+<7570> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Neu-Ulm"@de ;
+    skos:notation "7570" ;
+    skos:topConceptOf <> .
+
+<7312> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf"@de ;
+    skos:notation "7312" ;
+    skos:topConceptOf <> .
+
+<6680> a skos:Concept ;
+    skos:prefLabel "Hochschule für angewandtes Management Ismaning"@de ;
+    skos:notation "6680" ;
+    skos:topConceptOf <> .
+
+<2900> a skos:Concept ;
+    skos:prefLabel "Hochschule für Bildende Künste - Städelschule Frankfurt a.M."@de ;
+    skos:notation "2900" ;
+    skos:topConceptOf <> .
+
+<2830> a skos:Concept ;
+    skos:prefLabel "Hochschule für Bildende Künste Braunschweig"@de ;
+    skos:notation "2830" ;
+    skos:topConceptOf <> .
+
+<2630> a skos:Concept ;
+    skos:prefLabel "Hochschule für Bildende Künste Dresden"@de ;
+    skos:notation "2630" ;
+    skos:topConceptOf <> .
+
+<2810> a skos:Concept ;
+    skos:prefLabel "Hochschule für Bildende Künste Hamburg"@de ;
+    skos:notation "2810" ;
+    skos:topConceptOf <> .
+
+<7467> a skos:Concept ;
+    skos:prefLabel "Hochschule für den öffentlichen Dienst in Bayern"@de ;
+    skos:notation "7467" ;
+    skos:topConceptOf <> .
+
+<3020> a skos:Concept ;
+    skos:prefLabel "Hochschule für evangelische Kirchenmusik Bayreuth"@de ;
+    skos:notation "3020" ;
+    skos:topConceptOf <> .
+
+<2730> a skos:Concept ;
+    skos:prefLabel "Hochschule für Fernsehen und Film München"@de ;
+    skos:notation "2730" ;
+    skos:topConceptOf <> .
+
+<6190> a skos:Concept ;
+    skos:prefLabel "Hochschule für Finanzen Nordrhein-Westfalen"@de ;
+    skos:notation "6190" ;
+    skos:topConceptOf <> .
+
+<6640> a skos:Concept ;
+    skos:prefLabel "Hochschule für Finanzen Rheinland-Pfalz"@de ;
+    skos:notation "6640" ;
+    skos:topConceptOf <> .
+
+<1500> a skos:Concept ;
+    skos:prefLabel "Hochschule für Finanzwirtschaft und Management Bonn"@de ;
+    skos:notation "1500" ;
+    skos:topConceptOf <> .
+
+<7110> a skos:Concept ;
+    skos:prefLabel "Hochschule für Forstwirtschaft Rottenburg"@de ;
+    skos:notation "7110" ;
+    skos:topConceptOf <> .
+
+<3230> a skos:Concept ;
+    skos:prefLabel "Hochschule für Gesellschaftsgestaltung"@de ;
+    skos:notation "3230" ;
+    skos:topConceptOf <> .
+
+<2920> a skos:Concept ;
+    skos:prefLabel "Hochschule für Gestaltung Offenbach am Main"@de ;
+    skos:notation "2920" ;
+    skos:topConceptOf <> .
+
+<7050> a skos:Concept ;
+    skos:prefLabel "Hochschule für Gestaltung Schwäbisch Gmünd"@de ;
+    skos:notation "7050" ;
+    skos:topConceptOf <> .
+
+<1770> a skos:Concept ;
+    skos:prefLabel "Hochschule für Gesundheit in Bochum"@de ;
+    skos:notation "1770" ;
+    skos:topConceptOf <> .
+
+<90002> a skos:Concept ;
+    skos:prefLabel "Hochschule für Gesundheitsfachberufe Eberswalde"@de ;
+    skos:notation "90002" ;
+    skos:topConceptOf <> .
+
+<2640> a skos:Concept ;
+    skos:prefLabel "Hochschule für Grafik und Buchkunst Leipzig"@de ;
+    skos:notation "2640" ;
+    skos:topConceptOf <> .
+
+<2300> a skos:Concept ;
+    skos:prefLabel "Hochschule für jüdische Studien Heidelberg"@de ;
+    skos:notation "2300" ;
+    skos:topConceptOf <> .
+
+<3040> a skos:Concept ;
+    skos:prefLabel "Hochschule für katholische Kirchenmusik und Musikpädagogik Regensburg"@de ;
+    skos:notation "3040" ;
+    skos:topConceptOf <> .
+
+<2930> a skos:Concept ;
+    skos:prefLabel "Hochschule für Kirchenmusik Dresden"@de ;
+    skos:notation "2930" ;
+    skos:topConceptOf <> .
+
+<0710> a skos:Concept ;
+    skos:prefLabel "Hochschule für Kirchenmusik Herford"@de ;
+    skos:notation "0710" ;
+    skos:topConceptOf <> .
+
+<3121> a skos:Concept ;
+    skos:prefLabel "Hochschule für Kommunikation und Gestaltung in Stuttgart"@de ;
+    skos:notation "3121" ;
+    skos:topConceptOf <> .
+
+<2610> a skos:Concept ;
+    skos:prefLabel "Hochschule für Künste Bremen"@de ;
+    skos:notation "2610" ;
+    skos:topConceptOf <> .
+
+<5430> a skos:Concept ;
+    skos:prefLabel "Hochschule für Künste im Sozialen, Ottersberg"@de ;
+    skos:notation "5430" ;
+    skos:topConceptOf <> .
+
+<2800> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Carl Maria von Weber Dresden"@de ;
+    skos:notation "2800" ;
+    skos:topConceptOf <> .
+
+<2561> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Detmold"@de ;
+    skos:notation "2561" ;
+    skos:topConceptOf <> .
+
+<2850> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik FRANZ LISZT Weimar"@de ;
+    skos:notation "2850" ;
+    skos:topConceptOf <> .
+
+<2650> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Freiburg im Breisgau"@de ;
+    skos:notation "2650" ;
+    skos:topConceptOf <> .
+
+<2520> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Hanns Eisler Berlin"@de ;
+    skos:notation "2520" ;
+    skos:topConceptOf <> .
+
+<2670> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Karlsruhe"@de ;
+    skos:notation "2670" ;
+    skos:topConceptOf <> .
+
+<3011> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Nürnberg"@de ;
+    skos:notation "3011" ;
+    skos:topConceptOf <> .
+
+<2760> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Saar"@de ;
+    skos:notation "2760" ;
+    skos:topConceptOf <> .
+
+<2620> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Darstellende Kunst Frankfurt am Main"@de ;
+    skos:notation "2620" ;
+    skos:topConceptOf <> .
+
+<2582> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Tanz Köln"@de ;
+    skos:notation "2582" ;
+    skos:topConceptOf <> .
+
+<2740> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Theater \"Felix Mendelssohn Bartholdy\", Leipzig"@de ;
+    skos:notation "2740" ;
+    skos:topConceptOf <> .
+
+<2500> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Theater Hamburg"@de ;
+    skos:notation "2500" ;
+    skos:topConceptOf <> .
+
+<2720> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Theater München"@de ;
+    skos:notation "2720" ;
+    skos:topConceptOf <> .
+
+<3030> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik und Theater Rostock"@de ;
+    skos:notation "3030" ;
+    skos:topConceptOf <> .
+
+<2710> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik Würzburg"@de ;
+    skos:notation "2710" ;
+    skos:topConceptOf <> .
+
+<2530> a skos:Concept ;
+    skos:prefLabel "Hochschule für Musik, Theater und Medien Hannover"@de ;
+    skos:notation "2530" ;
+    skos:topConceptOf <> .
+
+<7920> a skos:Concept ;
+    skos:prefLabel "Hochschule für nachhaltige Entwicklung Eberswalde"@de ;
+    skos:notation "7920" ;
+    skos:topConceptOf <> .
+
+<5670> a skos:Concept ;
+    skos:prefLabel "Hochschule für öffentliche Verwaltung Bremen"@de ;
+    skos:notation "5670" ;
+    skos:topConceptOf <> .
+
+<6631> a skos:Concept ;
+    skos:prefLabel "Hochschule für öffentliche Verwaltung Rheinland-Pfalz"@de ;
+    skos:notation "6631" ;
+    skos:topConceptOf <> .
+
+<2170> a skos:Concept ;
+    skos:prefLabel "Hochschule für Philosophie München"@de ;
+    skos:notation "2170" ;
+    skos:topConceptOf <> .
+
+<1710> a skos:Concept ;
+    skos:prefLabel "Hochschule für Politik München"@de ;
+    skos:notation "1710" ;
+    skos:topConceptOf <> .
+
+<6071> a skos:Concept ;
+    skos:prefLabel "Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen"@de ;
+    skos:notation "6071" ;
+    skos:topConceptOf <> .
+
+<7140> a skos:Concept ;
+    skos:prefLabel "Hochschule für Polizei Villingen-Schwenningen"@de ;
+    skos:notation "7140" ;
+    skos:topConceptOf <> .
+
+<7120> a skos:Concept ;
+    skos:prefLabel "Hochschule für Rechtspflege Schwetzingen"@de ;
+    skos:notation "7120" ;
+    skos:topConceptOf <> .
+
+<2540> a skos:Concept ;
+    skos:prefLabel "Hochschule für Schauspielkunst Ernst Busch, Berlin"@de ;
+    skos:notation "2540" ;
+    skos:topConceptOf <> .
+
+<2240> a skos:Concept ;
+    skos:prefLabel "Hochschule für Soziale Arbeit und Pädagogik"@de ;
+    skos:notation "2240" ;
+    skos:topConceptOf <> .
+
+<6850> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik Stuttgart"@de ;
+    skos:notation "6850" ;
+    skos:topConceptOf <> .
+
+<90004> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik und Gesundheit"@de ;
+    skos:notation "90004" ;
+    skos:topConceptOf <> .
+
+<7690> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik und Wirtschaft Berlin"@de ;
+    skos:notation "7690" ;
+    skos:topConceptOf <> .
+
+<7610> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik und Wirtschaft des Saarlandes"@de ;
+    skos:notation "7610" ;
+    skos:topConceptOf <> .
+
+<5120> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik und Wirtschaft Dresden"@de ;
+    skos:notation "5120" ;
+    skos:topConceptOf <> .
+
+<5130> a skos:Concept ;
+    skos:prefLabel "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de ;
+    skos:notation "5130" ;
+    skos:topConceptOf <> .
+
+<6650> a skos:Concept ;
+    skos:prefLabel "Hochschule für Wirtschaft und Gesellschaft Ludwigshafen"@de ;
+    skos:notation "6650" ;
+    skos:topConceptOf <> .
+
+<5412> a skos:Concept ;
+    skos:prefLabel "Hochschule für Wirtschaft und Technik Vechta/ Diepholz"@de ;
+    skos:notation "5412" ;
+    skos:topConceptOf <> .
+
+<6791> a skos:Concept ;
+    skos:prefLabel "Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen"@de ;
+    skos:notation "6791" ;
+    skos:topConceptOf <> .
+
+<6741> a skos:Concept ;
+    skos:prefLabel "Hochschule Furtwangen"@de ;
+    skos:notation "6741" ;
+    skos:topConceptOf <> .
+
+<2200> a skos:Concept ;
+    skos:prefLabel "Hochschule Geisenheim University"@de ;
+    skos:notation "2200" ;
+    skos:topConceptOf <> .
+
+<3071> a skos:Concept ;
+    skos:prefLabel "Hochschule Hamm-Lippstadt"@de ;
+    skos:notation "3071" ;
+    skos:topConceptOf <> .
+
+<5330> a skos:Concept ;
+    skos:prefLabel "Hochschule Hannover"@de ;
+    skos:notation "5330" ;
+    skos:topConceptOf <> .
+
+<8021> a skos:Concept ;
+    skos:prefLabel "Hochschule Harz, Hochschule für angewandte Wissenschaften"@de ;
+    skos:notation "8021" ;
+    skos:topConceptOf <> .
+
+<6751> a skos:Concept ;
+    skos:prefLabel "Hochschule Heilbronn"@de ;
+    skos:notation "6751" ;
+    skos:topConceptOf <> .
+
+<6521> a skos:Concept ;
+    skos:prefLabel "Hochschule Kaiserslautern"@de ;
+    skos:notation "6521" ;
+    skos:topConceptOf <> .
+
+<6760> a skos:Concept ;
+    skos:prefLabel "Hochschule Karlsruhe"@de ;
+    skos:notation "6760" ;
+    skos:topConceptOf <> .
+
+<6531> a skos:Concept ;
+    skos:prefLabel "Hochschule Koblenz"@de ;
+    skos:notation "6531" ;
+    skos:topConceptOf <> .
+
+<6770> a skos:Concept ;
+    skos:prefLabel "Hochschule Konstanz"@de ;
+    skos:notation "6770" ;
+    skos:topConceptOf <> .
+
+<7070> a skos:Concept ;
+    skos:prefLabel "Hochschule Ludwigsburg für öffentliche Verwaltung und Finanzen"@de ;
+    skos:notation "7070" ;
+    skos:topConceptOf <> .
+
+<0030> a skos:Concept ;
+    skos:prefLabel "Hochschule Macromedia für angewandte Wissenschaften"@de ;
+    skos:notation "0030" ;
+    skos:topConceptOf <> .
+
+<8011> a skos:Concept ;
+    skos:prefLabel "Hochschule Magdeburg-Stendal"@de ;
+    skos:notation "8011" ;
+    skos:topConceptOf <> .
+
+<6670> a skos:Concept ;
+    skos:prefLabel "Hochschule Mainz"@de ;
+    skos:notation "6670" ;
+    skos:topConceptOf <> .
+
+<6780> a skos:Concept ;
+    skos:prefLabel "Hochschule Mannheim"@de ;
+    skos:notation "6780" ;
+    skos:topConceptOf <> .
+
+<6380> a skos:Concept ;
+    skos:prefLabel "Hochschule Meißen und Fortbildungszentrum"@de ;
+    skos:notation "6380" ;
+    skos:topConceptOf <> .
+
+<8000> a skos:Concept ;
+    skos:prefLabel "Hochschule Merseburg"@de ;
+    skos:notation "8000" ;
+    skos:topConceptOf <> .
+
+<5140> a skos:Concept ;
+    skos:prefLabel "Hochschule Mittweida"@de ;
+    skos:notation "5140" ;
+    skos:topConceptOf <> .
+
+<7780> a skos:Concept ;
+    skos:prefLabel "Hochschule Neubrandenburg"@de ;
+    skos:notation "7780" ;
+    skos:topConceptOf <> .
+
+<5841> a skos:Concept ;
+    skos:prefLabel "Hochschule Niederrhein"@de ;
+    skos:notation "5841" ;
+    skos:topConceptOf <> .
+
+<7880> a skos:Concept ;
+    skos:prefLabel "Hochschule Nordhausen - University of Applied Sciences"@de ;
+    skos:notation "7880" ;
+    skos:topConceptOf <> .
+
+<6800> a skos:Concept ;
+    skos:prefLabel "Hochschule Offenburg"@de ;
+    skos:notation "6800" ;
+    skos:topConceptOf <> .
+
+<5501> a skos:Concept ;
+    skos:prefLabel "Hochschule Osnabrück"@de ;
+    skos:notation "5501" ;
+    skos:topConceptOf <> .
+
+<6810> a skos:Concept ;
+    skos:prefLabel "Hochschule Pforzheim"@de ;
+    skos:notation "6810" ;
+    skos:topConceptOf <> .
+
+<6820> a skos:Concept ;
+    skos:prefLabel "Hochschule Ravensburg-Weingarten"@de ;
+    skos:notation "6820" ;
+    skos:topConceptOf <> .
+
+<6830> a skos:Concept ;
+    skos:prefLabel "Hochschule Reutlingen"@de ;
+    skos:notation "6830" ;
+    skos:topConceptOf <> .
+
+<6244> a skos:Concept ;
+    skos:prefLabel "Hochschule RheinMain"@de ;
+    skos:notation "6244" ;
+    skos:topConceptOf <> .
+
+<3061> a skos:Concept ;
+    skos:prefLabel "Hochschule Rhein-Waal - University of Applied Sciences"@de ;
+    skos:notation "3061" ;
+    skos:topConceptOf <> .
+
+<3052> a skos:Concept ;
+    skos:prefLabel "Hochschule Ruhr West - University of Applied Sciences"@de ;
+    skos:notation "3052" ;
+    skos:topConceptOf <> .
+
+<7830> a skos:Concept ;
+    skos:prefLabel "Hochschule Schmalkalden"@de ;
+    skos:notation "7830" ;
+    skos:topConceptOf <> .
+
+<7790> a skos:Concept ;
+    skos:prefLabel "Hochschule Stralsund"@de ;
+    skos:notation "7790" ;
+    skos:topConceptOf <> .
+
+<6581> a skos:Concept ;
+    skos:prefLabel "Hochschule Trier"@de ;
+    skos:notation "6581" ;
+    skos:topConceptOf <> .
+
+<1780> a skos:Concept ;
+    skos:prefLabel "Hochschule Weserbergland"@de ;
+    skos:notation "1780" ;
+    skos:topConceptOf <> .
+
+<7840> a skos:Concept ;
+    skos:prefLabel "Hochschule Wismar"@de ;
+    skos:notation "7840" ;
+    skos:topConceptOf <> .
+
+<6660> a skos:Concept ;
+    skos:prefLabel "Hochschule Worms"@de ;
+    skos:notation "6660" ;
+    skos:topConceptOf <> .
+
+<5150> a skos:Concept ;
+    skos:prefLabel "Hochschule Zittau/Görlitz"@de ;
+    skos:notation "5150" ;
+    skos:topConceptOf <> .
+
+<8090> a skos:Concept ;
+    skos:prefLabel "HSBA - Hamburg School of Business Administration"@de ;
+    skos:notation "8090" ;
+    skos:topConceptOf <> .
+
+<3091> a skos:Concept ;
+    skos:prefLabel "HSD Hochschule Döpfer Köln"@de ;
+    skos:notation "3091" ;
+    skos:topConceptOf <> .
+
+<90001> a skos:Concept ;
+    skos:prefLabel "Humanistische Hochschule Berlin"@de ;
+    skos:notation "90001" ;
+    skos:topConceptOf <> .
+
+<0200> a skos:Concept ;
+    skos:prefLabel "Humboldt-Universität Berlin"@de ;
+    skos:notation "0200" ;
+    skos:topConceptOf <> .
+
+<7721> a skos:Concept ;
+    skos:prefLabel "HWR - Hochschule für Wirtschaft und Recht Berlin"@de ;
+    skos:notation "7721" ;
+    skos:topConceptOf <> .
+
+<0760> a skos:Concept ;
+    skos:prefLabel "IB Hochschule für Gesundheit und Soziales Berlin"@de ;
+    skos:notation "0760" ;
+    skos:topConceptOf <> .
+
+<4150> a skos:Concept ;
+    skos:prefLabel "IBS IT and Business School Oldenburg"@de ;
+    skos:notation "4150" ;
+    skos:topConceptOf <> .
+
+<1520> a skos:Concept ;
+    skos:prefLabel "International Psychoanalytic University Berlin"@de ;
+    skos:notation "1520" ;
+    skos:topConceptOf <> .
+
+<5690> a skos:Concept ;
+    skos:prefLabel "International School of Management"@de ;
+    skos:notation "5690" ;
+    skos:topConceptOf <> .
+
+<4091> a skos:Concept ;
+    skos:prefLabel "Internationale Berufsakademie der F+U Unternehmensgruppe Darmstadt"@de ;
+    skos:notation "4091" ;
+    skos:topConceptOf <> .
+
+<1940> a skos:Concept ;
+    skos:prefLabel "Internationale Hochschule Liebenzell"@de ;
+    skos:notation "1940" ;
+    skos:topConceptOf <> .
+
+<0720> a skos:Concept ;
+    skos:prefLabel "Internationale Hochschule SDI München - Hochschule für angewandte Wissenschaften"@de ;
+    skos:notation "0720" ;
+    skos:topConceptOf <> .
+
+<90005> a skos:Concept ;
+    skos:prefLabel "INU - Innovative Hochschule für angewandte Wissenschaften"@de ;
+    skos:notation "90005" ;
+    skos:topConceptOf <> .
+
+<4230> a skos:Concept ;
+    skos:prefLabel "ISBA gGmbH - Internationale Studien- und Berufsakademie"@de ;
+    skos:notation "4230" ;
+    skos:topConceptOf <> .
+
+<2280> a skos:Concept ;
+    skos:prefLabel "IST-Hochschule für Management"@de ;
+    skos:notation "2280" ;
+    skos:topConceptOf <> .
+
+<5723> a skos:Concept ;
+    skos:prefLabel "IU - Internationale Hochschule"@de ;
+    skos:notation "5723" ;
+    skos:topConceptOf <> .
+
+<4981> a skos:Concept ;
+    skos:prefLabel "Jade Hochschule - Wilhelmshaven/Oldenburg/Elsfleth"@de ;
+    skos:notation "4981" ;
+    skos:topConceptOf <> .
+
+<1221> a skos:Concept ;
+    skos:prefLabel "Johannes Gutenberg-Universität Mainz"@de ;
+    skos:notation "1221" ;
+    skos:topConceptOf <> .
+
+<1330> a skos:Concept ;
+    skos:prefLabel "Julius-Maximilians-Universität Würzburg"@de ;
+    skos:notation "1330" ;
+    skos:topConceptOf <> .
+
+<1170> a skos:Concept ;
+    skos:prefLabel "Justus-Liebig-Universität Gießen"@de ;
+    skos:notation "1170" ;
+    skos:topConceptOf <> .
+
+<8150> a skos:Concept ;
+    skos:prefLabel "Karlshochschule International University"@de ;
+    skos:notation "8150" ;
+    skos:topConceptOf <> .
+
+<6910> a skos:Concept ;
+    skos:prefLabel "Katholische Hochschule Freiburg im Breisgau"@de ;
+    skos:notation "6910" ;
+    skos:topConceptOf <> .
+
+<7700> a skos:Concept ;
+    skos:prefLabel "Katholische Hochschule für Sozialwesen Berlin"@de ;
+    skos:notation "7700" ;
+    skos:topConceptOf <> .
+
+<6600> a skos:Concept ;
+    skos:prefLabel "Katholische Hochschule Mainz"@de ;
+    skos:notation "6600" ;
+    skos:topConceptOf <> .
+
+<6031> a skos:Concept ;
+    skos:prefLabel "Katholische Hochschule Nordrhein-Westfalen"@de ;
+    skos:notation "6031" ;
+    skos:topConceptOf <> .
+
+<7381> a skos:Concept ;
+    skos:prefLabel "Katholische Stiftungshochschule München"@de ;
+    skos:notation "7381" ;
+    skos:topConceptOf <> .
+
+<0551> a skos:Concept ;
+    skos:prefLabel "Katholische Universität Eichstätt - Ingolstadt"@de ;
+    skos:notation "0551" ;
+    skos:topConceptOf <> .
+
+<2271> a skos:Concept ;
+    skos:prefLabel "Kirchliche Hochschule Wuppertal"@de ;
+    skos:notation "2271" ;
+    skos:topConceptOf <> .
+
+<1580> a skos:Concept ;
+    skos:prefLabel "KIT - Karlsruher Institut für Technologie"@de ;
+    skos:notation "1580" ;
+    skos:topConceptOf <> .
+
+<1639> a skos:Concept ;
+    skos:prefLabel "Klinikum der Technischen Universität München"@de ;
+    skos:notation "1639" ;
+    skos:topConceptOf <> .
+
+<1499> a skos:Concept ;
+    skos:prefLabel "Klinikum der Universität Witten/Herdecke"@de ;
+    skos:notation "1499" ;
+    skos:topConceptOf <> .
+
+<1329> a skos:Concept ;
+    skos:prefLabel "Klinikum Ludwig-Maximilians-Universität München"@de ;
+    skos:notation "1329" ;
+    skos:topConceptOf <> .
+
+<0529> a skos:Concept ;
+    skos:prefLabel "Klinikum Oldenburg AöR"@de ;
+    skos:notation "0529" ;
+    skos:topConceptOf <> .
+
+<1960> a skos:Concept ;
+    skos:prefLabel "KLU Kühne Logistics University"@de ;
+    skos:notation "1960" ;
+    skos:topConceptOf <> .
+
+<2060> a skos:Concept ;
+    skos:prefLabel "Kölner Hochschule für Katholische Theologie"@de ;
+    skos:notation "2060" ;
+    skos:topConceptOf <> .
+
+<3790> a skos:Concept ;
+    skos:prefLabel "Kolping Hochschule"@de ;
+    skos:notation "3790" ;
+    skos:topConceptOf <> .
+
+<0750> a skos:Concept ;
+    skos:prefLabel "Kommunale Hochschule für Verwaltung in Niedersachsen"@de ;
+    skos:notation "0750" ;
+    skos:topConceptOf <> .
+
+<2860> a skos:Concept ;
+    skos:prefLabel "Kunstakademie Düsseldorf"@de ;
+    skos:notation "2860" ;
+    skos:topConceptOf <> .
+
+<2890> a skos:Concept ;
+    skos:prefLabel "Kunstakademie Münster"@de ;
+    skos:notation "2890" ;
+    skos:topConceptOf <> .
+
+<2880> a skos:Concept ;
+    skos:prefLabel "Kunsthochschule der Medien Köln"@de ;
+    skos:notation "2880" ;
+    skos:topConceptOf <> .
+
+<0013> a skos:Concept ;
+    skos:prefLabel "Kunsthochschule Kassel"@de ;
+    skos:notation "0013" ;
+    skos:topConceptOf <> .
+
+<1910> a skos:Concept ;
+    skos:prefLabel "Leibniz - Fachhochschule Hannover"@de ;
+    skos:notation "1910" ;
+    skos:topConceptOf <> .
+
+<1450> a skos:Concept ;
+    skos:prefLabel "Leibniz Universität Hannover"@de ;
+    skos:notation "1450" ;
+    skos:topConceptOf <> .
+
+<0990> a skos:Concept ;
+    skos:prefLabel "Leuphana Universität Lüneburg"@de ;
+    skos:notation "0990" ;
+    skos:topConceptOf <> .
+
+<1320> a skos:Concept ;
+    skos:prefLabel "Ludwig-Maximilians-Universität München"@de ;
+    skos:notation "1320" ;
+    skos:topConceptOf <> .
+
+<2320> a skos:Concept ;
+    skos:prefLabel "Lutherische Theologische Hochschule Oberursel"@de ;
+    skos:notation "2320" ;
+    skos:topConceptOf <> .
+
+<0301> a skos:Concept ;
+    skos:prefLabel "Martin-Luther-Universität Halle-Wittenberg"@de ;
+    skos:notation "0301" ;
+    skos:topConceptOf <> .
+
+<4960> a skos:Concept ;
+    skos:prefLabel "media Akademie - Hochschule Stuttgart"@de ;
+    skos:notation "4960" ;
+    skos:topConceptOf <> .
+
+<5270> a skos:Concept ;
+    skos:prefLabel "Mediadesign Hochschule Berlin"@de ;
+    skos:notation "5270" ;
+    skos:topConceptOf <> .
+
+<2420> a skos:Concept ;
+    skos:prefLabel "Medizinische Hochschule Brandenburg - Theodor Fontane"@de ;
+    skos:notation "2420" ;
+    skos:topConceptOf <> .
+
+<1730> a skos:Concept ;
+    skos:prefLabel "Medizinische Hochschule Hannover (MHH)"@de ;
+    skos:notation "1730" ;
+    skos:topConceptOf <> .
+
+<90007> a skos:Concept ;
+    skos:prefLabel "Medizinische Universität Lausitz – Carl Thiem"@de ;
+    skos:notation "90007" ;
+    skos:topConceptOf <> .
+
+<6970> a skos:Concept ;
+    skos:prefLabel "Merz Akademie - Hochschule für Gestaltung, Kunst und Medien, Stuttgart"@de ;
+    skos:notation "6970" ;
+    skos:topConceptOf <> .
+
+<1990> a skos:Concept ;
+    skos:prefLabel "MSB - Medical School Berlin"@de ;
+    skos:notation "1990" ;
+    skos:topConceptOf <> .
+
+<1880> a skos:Concept ;
+    skos:prefLabel "MSH Medical School Hamburg"@de ;
+    skos:notation "1880" ;
+    skos:topConceptOf <> .
+
+<7580> a skos:Concept ;
+    skos:prefLabel "Munich Business School"@de ;
+    skos:notation "7580" ;
+    skos:topConceptOf <> .
+
+<4100> a skos:Concept ;
+    skos:prefLabel "Musikakademie der Stadt Kassel \"Louis Spohr\""@de ;
+    skos:notation "4100" ;
+    skos:topConceptOf <> .
+
+<2590> a skos:Concept ;
+    skos:prefLabel "Musikhochschule Lübeck"@de ;
+    skos:notation "2590" ;
+    skos:topConceptOf <> .
+
+<5080> a skos:Concept ;
+    skos:prefLabel "Muthesius Kunsthochschule Kiel"@de ;
+    skos:notation "5080" ;
+    skos:topConceptOf <> .
+
+<2410> a skos:Concept ;
+    skos:prefLabel "NBS Northern Business School - University of Applied Sciences"@de ;
+    skos:notation "2410" ;
+    skos:topConceptOf <> .
+
+<5280> a skos:Concept ;
+    skos:prefLabel "NORDAKADEMIE Hochschule der Wirtschaft"@de ;
+    skos:notation "5280" ;
+    skos:topConceptOf <> .
+
+<7990> a skos:Concept ;
+    skos:prefLabel "Norddeutsche Akademie für Finanzen und Steuerrecht"@de ;
+    skos:notation "7990" ;
+    skos:topConceptOf <> .
+
+<0740> a skos:Concept ;
+    skos:prefLabel "Norddeutsche Hochschule für Rechtspflege"@de ;
+    skos:notation "0740" ;
+    skos:topConceptOf <> .
+
+<7551> a skos:Concept ;
+    skos:prefLabel "Ostbayerische Technische Hochschule Amberg-Weiden"@de ;
+    skos:notation "7551" ;
+    skos:topConceptOf <> .
+
+<7260> a skos:Concept ;
+    skos:prefLabel "Ostbayerische Technische Hochschule Regensburg"@de ;
+    skos:notation "7260" ;
+    skos:topConceptOf <> .
+
+<5312> a skos:Concept ;
+    skos:prefLabel "Ostfalia Hochschule für angewandte Wissenschaften"@de ;
+    skos:notation "5312" ;
+    skos:topConceptOf <> .
+
+<1190> a skos:Concept ;
+    skos:prefLabel "Otto Beisheim School of Management"@de ;
+    skos:notation "1190" ;
+    skos:topConceptOf <> .
+
+<0500> a skos:Concept ;
+    skos:prefLabel "Otto-Friedrich-Universität Bamberg"@de ;
+    skos:notation "0500" ;
+    skos:topConceptOf <> .
+
+<0310> a skos:Concept ;
+    skos:prefLabel "Otto-von-Guericke-Universität Magdeburg"@de ;
+    skos:notation "0310" ;
+    skos:topConceptOf <> .
+
+<3660> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Freiburg im Breisgau"@de ;
+    skos:notation "3660" ;
+    skos:topConceptOf <> .
+
+<3670> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Heidelberg"@de ;
+    skos:notation "3670" ;
+    skos:topConceptOf <> .
+
+<3680> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Karlsruhe"@de ;
+    skos:notation "3680" ;
+    skos:topConceptOf <> .
+
+<3711> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Ludwigsburg"@de ;
+    skos:notation "3711" ;
+    skos:topConceptOf <> .
+
+<3700> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Schwäbisch Gmünd"@de ;
+    skos:notation "3700" ;
+    skos:topConceptOf <> .
+
+<3780> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Weingarten"@de ;
+    skos:notation "3780" ;
+    skos:topConceptOf <> .
+
+<2490> a skos:Concept ;
+    skos:prefLabel "Palucca Hochschule für Tanz Dresden"@de ;
+    skos:notation "2490" ;
+    skos:topConceptOf <> .
+
+<1180> a skos:Concept ;
+    skos:prefLabel "Philipps-Universität Marburg"@de ;
+    skos:notation "1180" ;
+    skos:topConceptOf <> .
+
+<2020> a skos:Concept ;
+    skos:prefLabel "Philosophisch-Theologische Hochschule Frankfurt am Main"@de ;
+    skos:notation "2020" ;
+    skos:topConceptOf <> .
+
+<2080> a skos:Concept ;
+    skos:prefLabel "Philosophisch-Theologische Hochschule Münster"@de ;
+    skos:notation "2080" ;
+    skos:topConceptOf <> .
+
+<90011> a skos:Concept ;
+    skos:prefLabel "Polizeiakademie Niedersachsen"@de ;
+    skos:notation "90011" ;
+    skos:topConceptOf <> .
+
+<90006> a skos:Concept ;
+    skos:prefLabel "Popakademie Baden-Württemberg"@de ;
+    skos:notation "90006" ;
+    skos:topConceptOf <> .
+
+<2440> a skos:Concept ;
+    skos:prefLabel "praxisHochschule Köln"@de ;
+    skos:notation "2440" ;
+    skos:topConceptOf <> .
+
+<4110> a skos:Concept ;
+    skos:prefLabel "Private Berufsakademie Fulda"@de ;
+    skos:notation "4110" ;
+    skos:topConceptOf <> .
+
+<5400> a skos:Concept ;
+    skos:prefLabel "Private Hochschule Göttingen"@de ;
+    skos:notation "5400" ;
+    skos:topConceptOf <> .
+
+<6690> a skos:Concept ;
+    skos:prefLabel "Provadis School of International Management and Technology, Frankfurt am Main"@de ;
+    skos:notation "6690" ;
+    skos:topConceptOf <> .
+
+<1840> a skos:Concept ;
+    skos:prefLabel "Psychologische Hochschule Berlin"@de ;
+    skos:notation "1840" ;
+    skos:topConceptOf <> .
+
+<1600> a skos:Concept ;
+    skos:prefLabel "Quadriga Hochschule Berlin"@de ;
+    skos:notation "1600" ;
+    skos:topConceptOf <> .
+
+<1090> a skos:Concept ;
+    skos:prefLabel "Rheinische Friedrich-Wilhelms-Universität Bonn"@de ;
+    skos:notation "1090" ;
+    skos:topConceptOf <> .
+
+<5990> a skos:Concept ;
+    skos:prefLabel "Rheinische Hochschule Köln"@de ;
+    skos:notation "5990" ;
+    skos:topConceptOf <> .
+
+<1480> a skos:Concept ;
+    skos:prefLabel "Rheinisch-Westfälische Technische Hochschule Aachen"@de ;
+    skos:notation "1480" ;
+    skos:topConceptOf <> .
+
+<1210> a skos:Concept ;
+    skos:prefLabel "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"@de ;
+    skos:notation "1210" ;
+    skos:topConceptOf <> .
+
+<2870> a skos:Concept ;
+    skos:prefLabel "Robert-Schumann-Hochschule Düsseldorf"@de ;
+    skos:notation "2870" ;
+    skos:topConceptOf <> .
+
+<1080> a skos:Concept ;
+    skos:prefLabel "Ruhr-Universität Bochum"@de ;
+    skos:notation "1080" ;
+    skos:topConceptOf <> .
+
+<1250> a skos:Concept ;
+    skos:prefLabel "Ruprecht-Karls-Universität Heidelberg"@de ;
+    skos:notation "1250" ;
+    skos:topConceptOf <> .
+
+<7180> a skos:Concept ;
+    skos:prefLabel "SRH Fernhochschule - The Mobile University"@de ;
+    skos:notation "7180" ;
+    skos:topConceptOf <> .
+
+<7090> a skos:Concept ;
+    skos:prefLabel "SRH University of Applied Sciences Heidelberg"@de ;
+    skos:notation "7090" ;
+    skos:topConceptOf <> .
+
+<2940> a skos:Concept ;
+    skos:prefLabel "Staatl. Hochschule für Gestaltung Karlsruhe"@de ;
+    skos:notation "2940" ;
+    skos:topConceptOf <> .
+
+<2950> a skos:Concept ;
+    skos:prefLabel "Staatliche Akademie der Bildenden Künste Karlsruhe"@de ;
+    skos:notation "2950" ;
+    skos:topConceptOf <> .
+
+<2960> a skos:Concept ;
+    skos:prefLabel "Staatliche Akademie der Bildenden Künste Stuttgart"@de ;
+    skos:notation "2960" ;
+    skos:topConceptOf <> .
+
+<2700> a skos:Concept ;
+    skos:prefLabel "Staatliche Hochschule für Musik Trossingen"@de ;
+    skos:notation "2700" ;
+    skos:topConceptOf <> .
+
+<2660> a skos:Concept ;
+    skos:prefLabel "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim"@de ;
+    skos:notation "2660" ;
+    skos:topConceptOf <> .
+
+<2690> a skos:Concept ;
+    skos:prefLabel "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart"@de ;
+    skos:notation "2690" ;
+    skos:topConceptOf <> .
+
+<7960> a skos:Concept ;
+    skos:prefLabel "Steinbeis-Hochschule Berlin"@de ;
+    skos:notation "7960" ;
+    skos:topConceptOf <> .
+
+<1740> a skos:Concept ;
+    skos:prefLabel "Stiftung Tierärztliche Hochschule Hannover"@de ;
+    skos:notation "1740" ;
+    skos:topConceptOf <> .
+
+<7590> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Aschaffenburg"@de ;
+    skos:notation "7590" ;
+    skos:topConceptOf <> .
+
+<7210> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Augsburg"@de ;
+    skos:notation "7210" ;
+    skos:topConceptOf <> .
+
+<6510> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Bingen"@de ;
+    skos:notation "6510" ;
+    skos:topConceptOf <> .
+
+<7910> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Brandenburg"@de ;
+    skos:notation "7910" ;
+    skos:topConceptOf <> .
+
+<7520> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Deggendorf"@de ;
+    skos:notation "7520" ;
+    skos:topConceptOf <> .
+
+<5980> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Georg Agricola Bochum"@de ;
+    skos:notation "5980" ;
+    skos:topConceptOf <> .
+
+<7540> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Ingolstadt"@de ;
+    skos:notation "7540" ;
+    skos:topConceptOf <> .
+
+<5831> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Köln"@de ;
+    skos:notation "5831" ;
+    skos:topConceptOf <> .
+
+<5030> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Lübeck"@de ;
+    skos:notation "5030" ;
+    skos:topConceptOf <> .
+
+<6231> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Mittelhessen"@de ;
+    skos:notation "6231" ;
+    skos:topConceptOf <> .
+
+<7250> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Nürnberg Georg Simon Ohm"@de ;
+    skos:notation "7250" ;
+    skos:topConceptOf <> .
+
+<5861> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Ostwestfalen-Lippe"@de ;
+    skos:notation "5861" ;
+    skos:topConceptOf <> .
+
+<7300> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Rosenheim"@de ;
+    skos:notation "7300" ;
+    skos:topConceptOf <> .
+
+<6870> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Ulm"@de ;
+    skos:notation "6870" ;
+    skos:topConceptOf <> .
+
+<7940> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Wildau"@de ;
+    skos:notation "7940" ;
+    skos:topConceptOf <> .
+
+<7352> a skos:Concept ;
+    skos:prefLabel "Technische Hochschule Würzburg-Schweinfurt"@de ;
+    skos:notation "7352" ;
+    skos:topConceptOf <> .
+
+<0390> a skos:Concept ;
+    skos:prefLabel "Technische Universität Bergakademie Freiberg"@de ;
+    skos:notation "0390" ;
+    skos:topConceptOf <> .
+
+<1690> a skos:Concept ;
+    skos:prefLabel "Technische Universität Berlin"@de ;
+    skos:notation "1690" ;
+    skos:topConceptOf <> .
+
+<1430> a skos:Concept ;
+    skos:prefLabel "Technische Universität Braunschweig"@de ;
+    skos:notation "1430" ;
+    skos:topConceptOf <> .
+
+<0380> a skos:Concept ;
+    skos:prefLabel "Technische Universität Chemnitz"@de ;
+    skos:notation "0380" ;
+    skos:topConceptOf <> .
+
+<1440> a skos:Concept ;
+    skos:prefLabel "Technische Universität Clausthal"@de ;
+    skos:notation "1440" ;
+    skos:topConceptOf <> .
+
+<1530> a skos:Concept ;
+    skos:prefLabel "Technische Universität Darmstadt"@de ;
+    skos:notation "1530" ;
+    skos:topConceptOf <> .
+
+<1130> a skos:Concept ;
+    skos:prefLabel "Technische Universität Dortmund"@de ;
+    skos:notation "1130" ;
+    skos:topConceptOf <> .
+
+<0370> a skos:Concept ;
+    skos:prefLabel "Technische Universität Dresden"@de ;
+    skos:notation "0370" ;
+    skos:topConceptOf <> .
+
+<1040> a skos:Concept ;
+    skos:prefLabel "Technische Universität Hamburg"@de ;
+    skos:notation "1040" ;
+    skos:topConceptOf <> .
+
+<0590> a skos:Concept ;
+    skos:prefLabel "Technische Universität Ilmenau"@de ;
+    skos:notation "0590" ;
+    skos:topConceptOf <> .
+
+<1630> a skos:Concept ;
+    skos:prefLabel "Technische Universität München"@de ;
+    skos:notation "1630" ;
+    skos:topConceptOf <> .
+
+<2000> a skos:Concept ;
+    skos:prefLabel "Theologische Fakultät Fulda"@de ;
+    skos:notation "2000" ;
+    skos:topConceptOf <> .
+
+<2030> a skos:Concept ;
+    skos:prefLabel "Theologische Fakultät Paderborn"@de ;
+    skos:notation "2030" ;
+    skos:topConceptOf <> .
+
+<2040> a skos:Concept ;
+    skos:prefLabel "Theologische Fakultät Trier"@de ;
+    skos:notation "2040" ;
+    skos:topConceptOf <> .
+
+<6430> a skos:Concept ;
+    skos:prefLabel "Theologische Hochschule Elstal"@de ;
+    skos:notation "6430" ;
+    skos:topConceptOf <> .
+
+<2220> a skos:Concept ;
+    skos:prefLabel "Theologische Hochschule Ewersbach"@de ;
+    skos:notation "2220" ;
+    skos:topConceptOf <> .
+
+<2350> a skos:Concept ;
+    skos:prefLabel "Theologische Hochschule Friedensau"@de ;
+    skos:notation "2350" ;
+    skos:topConceptOf <> .
+
+<7680> a skos:Concept ;
+    skos:prefLabel "Theologische Hochschule Reutlingen"@de ;
+    skos:notation "7680" ;
+    skos:topConceptOf <> .
+
+<7860> a skos:Concept ;
+    skos:prefLabel "Thüringer Fachhochschule für öffentliche Verwaltung"@de ;
+    skos:notation "7860" ;
+    skos:topConceptOf <> .
+
+<90010> a skos:Concept ;
+    skos:prefLabel "Tomorrow University of Applied Sciences"@de ;
+    skos:notation "90010" ;
+    skos:topConceptOf <> .
+
+<0170> a skos:Concept ;
+    skos:prefLabel "Touro College Berlin"@de ;
+    skos:notation "0170" ;
+    skos:topConceptOf <> .
+
+<0014> a skos:Concept ;
+    skos:prefLabel "UNIKIMS - die Management School der Universität Kassel"@de ;
+    skos:notation "0014" ;
+    skos:topConceptOf <> .
+
+<1489> a skos:Concept ;
+    skos:prefLabel "Uniklinik RWTH Aachen"@de ;
+    skos:notation "1489" ;
+    skos:topConceptOf <> .
+
+<1350> a skos:Concept ;
+    skos:prefLabel "Universität Augsburg"@de ;
+    skos:notation "1350" ;
+    skos:topConceptOf <> .
+
+<0510> a skos:Concept ;
+    skos:prefLabel "Universität Bayreuth"@de ;
+    skos:notation "0510" ;
+    skos:topConceptOf <> .
+
+<1140> a skos:Concept ;
+    skos:prefLabel "Universität Bielefeld"@de ;
+    skos:notation "1140" ;
+    skos:topConceptOf <> .
+
+<1050> a skos:Concept ;
+    skos:prefLabel "Universität Bremen"@de ;
+    skos:notation "1050" ;
+    skos:topConceptOf <> .
+
+<0811> a skos:Concept ;
+    skos:prefLabel "Universität der Bundeswehr München"@de ;
+    skos:notation "0811" ;
+    skos:topConceptOf <> .
+
+<2790> a skos:Concept ;
+    skos:prefLabel "Universität der Künste Berlin"@de ;
+    skos:notation "2790" ;
+    skos:topConceptOf <> .
+
+<1360> a skos:Concept ;
+    skos:prefLabel "Universität des Saarlandes"@de ;
+    skos:notation "1360" ;
+    skos:topConceptOf <> .
+
+<0080> a skos:Concept ;
+    skos:prefLabel "Universität Duisburg-Essen"@de ;
+    skos:notation "0080" ;
+    skos:topConceptOf <> .
+
+<0620> a skos:Concept ;
+    skos:prefLabel "Universität Erfurt"@de ;
+    skos:notation "0620" ;
+    skos:topConceptOf <> .
+
+<0270> a skos:Concept ;
+    skos:prefLabel "Universität Greifswald"@de ;
+    skos:notation "0270" ;
+    skos:topConceptOf <> .
+
+<1020> a skos:Concept ;
+    skos:prefLabel "Universität Hamburg"@de ;
+    skos:notation "1020" ;
+    skos:topConceptOf <> .
+
+<0980> a skos:Concept ;
+    skos:prefLabel "Universität Hildesheim"@de ;
+    skos:notation "0980" ;
+    skos:topConceptOf <> .
+
+<1800> a skos:Concept ;
+    skos:prefLabel "Universität Hohenheim"@de ;
+    skos:notation "1800" ;
+    skos:topConceptOf <> .
+
+<0011> a skos:Concept ;
+    skos:prefLabel "Universität Kassel"@de ;
+    skos:notation "0011" ;
+    skos:topConceptOf <> .
+
+<1291> a skos:Concept ;
+    skos:prefLabel "Universität Koblenz"@de ;
+    skos:notation "1291" ;
+    skos:topConceptOf <> .
+
+<1260> a skos:Concept ;
+    skos:prefLabel "Universität Konstanz"@de ;
+    skos:notation "1260" ;
+    skos:topConceptOf <> .
+
+<0360> a skos:Concept ;
+    skos:prefLabel "Universität Leipzig"@de ;
+    skos:notation "0360" ;
+    skos:topConceptOf <> .
+
+<1810> a skos:Concept ;
+    skos:prefLabel "Universität Mannheim"@de ;
+    skos:notation "1810" ;
+    skos:topConceptOf <> .
+
+<1120> a skos:Concept ;
+    skos:prefLabel "Universität Münster"@de ;
+    skos:notation "1120" ;
+    skos:topConceptOf <> .
+
+<0530> a skos:Concept ;
+    skos:prefLabel "Universität Osnabrück"@de ;
+    skos:notation "0530" ;
+    skos:topConceptOf <> .
+
+<0121> a skos:Concept ;
+    skos:prefLabel "Universität Paderborn"@de ;
+    skos:notation "0121" ;
+    skos:topConceptOf <> .
+
+<0540> a skos:Concept ;
+    skos:prefLabel "Universität Passau"@de ;
+    skos:notation "0540" ;
+    skos:topConceptOf <> .
+
+<3500> a skos:Concept ;
+    skos:prefLabel "Universität Potsdam"@de ;
+    skos:notation "3500" ;
+    skos:topConceptOf <> .
+
+<1340> a skos:Concept ;
+    skos:prefLabel "Universität Regensburg"@de ;
+    skos:notation "1340" ;
+    skos:topConceptOf <> .
+
+<0260> a skos:Concept ;
+    skos:prefLabel "Universität Rostock"@de ;
+    skos:notation "0260" ;
+    skos:topConceptOf <> .
+
+<0130> a skos:Concept ;
+    skos:prefLabel "Universität Siegen"@de ;
+    skos:notation "0130" ;
+    skos:topConceptOf <> .
+
+<1590> a skos:Concept ;
+    skos:prefLabel "Universität Stuttgart"@de ;
+    skos:notation "1590" ;
+    skos:topConceptOf <> .
+
+<1200> a skos:Concept ;
+    skos:prefLabel "Universität Trier"@de ;
+    skos:notation "1200" ;
+    skos:topConceptOf <> .
+
+<1820> a skos:Concept ;
+    skos:prefLabel "Universität Ulm"@de ;
+    skos:notation "1820" ;
+    skos:topConceptOf <> .
+
+<0960> a skos:Concept ;
+    skos:prefLabel "Universität Vechta"@de ;
+    skos:notation "0960" ;
+    skos:topConceptOf <> .
+
+<1490> a skos:Concept ;
+    skos:prefLabel "Universität Witten/Herdecke"@de ;
+    skos:notation "1490" ;
+    skos:topConceptOf <> .
+
+<1110> a skos:Concept ;
+    skos:prefLabel "Universität zu Köln"@de ;
+    skos:notation "1110" ;
+    skos:topConceptOf <> .
+
+<1010> a skos:Concept ;
+    skos:prefLabel "Universität zu Lübeck"@de ;
+    skos:notation "1010" ;
+    skos:topConceptOf <> .
+
+<1359> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Augsburg"@de ;
+    skos:notation "1359" ;
+    skos:topConceptOf <> .
+
+<1099> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Bonn"@de ;
+    skos:notation "1099" ;
+    skos:topConceptOf <> .
+
+<0379> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Carl Gustav Carus Dresden"@de ;
+    skos:notation "0379" ;
+    skos:topConceptOf <> .
+
+<1089> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum der Ruhr-Universität Bochum"@de ;
+    skos:notation "1089" ;
+    skos:topConceptOf <> .
+
+<1369> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum des Saarlandes"@de ;
+    skos:notation "1369" ;
+    skos:topConceptOf <> .
+
+<1109> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Düsseldorf"@de ;
+    skos:notation "1109" ;
+    skos:topConceptOf <> .
+
+<1319> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Erlangen"@de ;
+    skos:notation "1319" ;
+    skos:topConceptOf <> .
+
+<0089> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Essen"@de ;
+    skos:notation "0089" ;
+    skos:topConceptOf <> .
+
+<1169> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Frankfurt"@de ;
+    skos:notation "1169" ;
+    skos:topConceptOf <> .
+
+<1249> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Freiburg im Breisgau"@de ;
+    skos:notation "1249" ;
+    skos:topConceptOf <> .
+
+<1378> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Gießen und Marburg"@de ;
+    skos:notation "1378" ;
+    skos:topConceptOf <> .
+
+<0309> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Halle (Saale)"@de ;
+    skos:notation "0309" ;
+    skos:topConceptOf <> .
+
+<1029> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Hamburg-Eppendorf"@de ;
+    skos:notation "1029" ;
+    skos:topConceptOf <> .
+
+<1259> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Heidelberg"@de ;
+    skos:notation "1259" ;
+    skos:topConceptOf <> .
+
+<0499> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Jena"@de ;
+    skos:notation "0499" ;
+    skos:topConceptOf <> .
+
+<1119> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Köln"@de ;
+    skos:notation "1119" ;
+    skos:topConceptOf <> .
+
+<0369> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Leipzig"@de ;
+    skos:notation "0369" ;
+    skos:topConceptOf <> .
+
+<0319> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Magdeburg"@de ;
+    skos:notation "0319" ;
+    skos:topConceptOf <> .
+
+<1258> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Mannheim (UMM)"@de ;
+    skos:notation "1258" ;
+    skos:topConceptOf <> .
+
+<1129> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Münster"@de ;
+    skos:notation "1129" ;
+    skos:topConceptOf <> .
+
+<1149> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum OWL"@de ;
+    skos:notation "1149" ;
+    skos:topConceptOf <> .
+
+<1349> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Regensburg"@de ;
+    skos:notation "1349" ;
+    skos:topConceptOf <> .
+
+<0950> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Schleswig-Holstein"@de ;
+    skos:notation "0950" ;
+    skos:topConceptOf <> .
+
+<1279> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Tübingen"@de ;
+    skos:notation "1279" ;
+    skos:topConceptOf <> .
+
+<1829> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Ulm"@de ;
+    skos:notation "1829" ;
+    skos:topConceptOf <> .
+
+<1339> a skos:Concept ;
+    skos:prefLabel "Universitätsklinikum Würzburg"@de ;
+    skos:notation "1339" ;
+    skos:topConceptOf <> .
+
+<1039> a skos:Concept ;
+    skos:prefLabel "Universitätsmedizin Göttingen"@de ;
+    skos:notation "1039" ;
+    skos:topConceptOf <> .
+
+<0279> a skos:Concept ;
+    skos:prefLabel "Universitätsmedizin Greifswald"@de ;
+    skos:notation "0279" ;
+    skos:topConceptOf <> .
+
+<1390> a skos:Concept ;
+    skos:prefLabel "Universitätsmedizin Mainz"@de ;
+    skos:notation "1390" ;
+    skos:topConceptOf <> .
+
+<0269> a skos:Concept ;
+    skos:prefLabel "Universitätsmedizin Rostock"@de ;
+    skos:notation "0269" ;
+    skos:topConceptOf <> .
+
+<5801> a skos:Concept ;
+    skos:prefLabel "University of Europe for Applied Sciences Potsdam"@de ;
+    skos:notation "5801" ;
+    skos:topConceptOf <> .
+
+<3720> a skos:Concept ;
+    skos:prefLabel "UoL-University of Labour Frankfurt"@de ;
+    skos:notation "3720" ;
+    skos:topConceptOf <> .
+
+<3370> a skos:Concept ;
+    skos:prefLabel "UTN - Technische Universität Nürnberg"@de ;
+    skos:notation "3370" ;
+    skos:topConceptOf <> .
+
+<1921> a skos:Concept ;
+    skos:prefLabel "VICTORIA - Internationale Hochschule Berlin"@de ;
+    skos:notation "1921" ;
+    skos:topConceptOf <> .
+
+<2050> a skos:Concept ;
+    skos:prefLabel "Vinzenz Pallotti University"@de ;
+    skos:notation "2050" ;
+    skos:topConceptOf <> .
+
+<4160> a skos:Concept ;
+    skos:prefLabel "VWA und Berufsakademie Göttingen"@de ;
+    skos:notation "4160" ;
+    skos:topConceptOf <> .
+
+<4170> a skos:Concept ;
+    skos:prefLabel "VWA und Berufsakademie Lüneburg"@de ;
+    skos:notation "4170" ;
+    skos:topConceptOf <> .
+
+<2381> a skos:Concept ;
+    skos:prefLabel "VWA-Hochschule für berufsbegleitendes Studium Stuttgart"@de ;
+    skos:notation "2381" ;
+    skos:topConceptOf <> .
+
+<2510> a skos:Concept ;
+    skos:prefLabel "Weißensee Kunsthochschule berlin"@de ;
+    skos:notation "2510" ;
+    skos:topConceptOf <> .
+
+<5701> a skos:Concept ;
+    skos:prefLabel "Westfälische Hochschule Gelsenkirchen, Bocholt, Recklinghausen"@de ;
+    skos:notation "5701" ;
+    skos:topConceptOf <> .
+
+<5161> a skos:Concept ;
+    skos:prefLabel "Westsächsische Hochschule Zwickau"@de ;
+    skos:notation "5161" ;
+    skos:topConceptOf <> .
+
+<4120> a skos:Concept ;
+    skos:prefLabel "Wiesbadener Musikakademie (WMA)"@de ;
+    skos:notation "4120" ;
+    skos:topConceptOf <> .
+
+<6390> a skos:Concept ;
+    skos:prefLabel "Wilhelm Büchner Hochschule Darmstadt"@de ;
+    skos:notation "6390" ;
+    skos:topConceptOf <> .
+
+<3490> a skos:Concept ;
+    skos:prefLabel "XU Exponential University of Applied Sciences Potsdam"@de ;
+    skos:notation "3490" ;
+    skos:topConceptOf <> .
+
+<1460> a skos:Concept ;
+    skos:prefLabel "Zeppelin Universität Friedrichshafen"@de ;
+    skos:notation "1460" ;
+    skos:topConceptOf <> .
+
+<90013> a skos:Concept ;
+    skos:prefLabel "g.a.s.t. e.V./TestDaF-Institut"@de ;
+    skos:notation "90013" ;
+    skos:topConceptOf <> .
+
+<90014> a skos:Concept ;
+    skos:prefLabel "ILIAS open source e-Learning e.V."@de ;
+    skos:notation "90014" ;
+    skos:topConceptOf <> .
+
+<90015> a skos:Concept ;
+    skos:prefLabel "Deutsches Institut für Erwachsenenbildung (DIE)"@de ;
+    skos:notation "90015" ;
+    skos:topConceptOf <> .
+
+<90016> a skos:Concept ;
+    skos:prefLabel "Zentrum für Fernstudien im Hochschulverbund (zfh)"@de ;
+    skos:notation "90016" ;
+    skos:topConceptOf <> .
+
+<90017> a skos:Concept ;
+    skos:prefLabel "Universität Bayern e.V."@de ;
+    skos:notation "90017" ;
+    skos:topConceptOf <> .
+
+<90018> a skos:Concept ;
+    skos:prefLabel "ELAN e.V."@de ;
+    skos:notation "90018" ;
+    skos:topConceptOf <> .
+
+<90019> a skos:Concept ;
+    skos:prefLabel "Bayerisches Zentrum für Innovative Lehre"@de ;
+    skos:notation "90019" ;
+    skos:topConceptOf <> .
+
+<90020> a skos:Concept ;
+    skos:prefLabel "Virtuelle Hochschule Bayern"@de ;
+    skos:notation "90020" ;
+    skos:topConceptOf <> .
+
