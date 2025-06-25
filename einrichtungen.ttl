@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
-    dct:title "Einrichtungen"@de, "Institutions"@en ;
-    dct:description "Eine Werteliste für Bildungseinrichtungen in Deutschland."@de, "A value list for educational institutions in Germany."@en ;
+    dct:title "Einrichtungen"@de ;
+    dct:description "Eine Werteliste für Bildungseinrichtungen in Deutschland genutzt im STIL-Transferkiosk."@de ; 
     dct:created "2025-06-25"^^xsd:date ;
     dct:modified "2025-06-25"^^xsd:date ;
     dct:issued "2025-06-25"^^xsd:date ;
